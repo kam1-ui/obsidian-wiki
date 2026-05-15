@@ -35,14 +35,31 @@ SKILLS_DIR="$SCRIPT_DIR/.skills"
 
 # Symlink every skill in SKILLS_DIR into TARGET_DIR.
 # Skips real directories to avoid data loss; updates stale symlinks.
+#
+# Args:
+#   $1 target_dir  — where to create the symlinks
+#   $2 label       — human-readable name for the summary line
+#   $3 mode        — "relative" for in-repo mirrors (matches the relative
+#                    paths committed to git, so `git status` stays clean
+#                    after install); "absolute" (default) for global dirs
+#                    like ~/.codex/skills that live outside the repo.
 install_skills() {
   local target_dir="$1"
   local label="$2"
+  local mode="${3:-absolute}"
   mkdir -p "$target_dir"
   for skill in "$SKILLS_DIR"/*/; do
-    local skill_name link_path
+    local skill_name link_path link_target
     skill_name="$(basename "$skill")"
     link_path="$target_dir/$skill_name"
+    if [ "$mode" = "relative" ]; then
+      # In-repo mirrors are always $REPO/<agent-dir>/skills, so the
+      # repo's .skills dir is two levels up. This matches the committed
+      # symlinks exactly and avoids leaking absolute home paths into git.
+      link_target="../../.skills/$skill_name"
+    else
+      link_target="${skill%/}"
+    fi
     if [ -L "$link_path" ]; then
       rm "$link_path"
     elif [ -d "$link_path" ]; then
@@ -53,9 +70,9 @@ install_skills() {
       # as regular files containing the target path. Replace with a real symlink.
       rm "$link_path"
     fi
-    ln -s "${skill%/}" "$link_path"
+    ln -s "$link_target" "$link_path"
   done
-  echo "✅  Installed global skills → $label"
+  echo "✅  Installed skills → $label"
 }
 
 echo ""
@@ -130,7 +147,7 @@ AGENT_DIRS=(
 )
 
 for agent_dir in "${AGENT_DIRS[@]}"; do
-  install_skills "$SCRIPT_DIR/$agent_dir" "$agent_dir/"
+  install_skills "$SCRIPT_DIR/$agent_dir" "$agent_dir/" relative
 done
 
 # ── Step 3: Install global skills ────────────────────────────
