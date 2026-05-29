@@ -67,7 +67,7 @@ In raw mode, each file in `OBSIDIAN_VAULT_PATH/_raw/` (or `OBSIDIAN_RAW_DIR`) is
 **Source inheritance:** The `_raw/` path is a staging artifact — never use it as the `sources:` value on the promoted page. Derive the source entry from the `_raw/` file's own frontmatter instead:
 
 - If the file has both `capture_source` and `sources:` fields, synthesize a combined entry:
-  `"agent:<capture_source> source:<capture_source> project:<project> date:<lifecycle_changed>"`
+  `"agent:<capture_source> <sources-value>"` — e.g. `"agent:claude-session obsidian-wiki session (2026-05-29)"`
 - If the file has only `sources:`, copy those entries verbatim.
 - Only fall back to the `_raw/` filename if the file has no `sources:` or `capture_source` fields at all.
 
