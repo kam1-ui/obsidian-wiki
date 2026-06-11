@@ -23,6 +23,8 @@ You are computing the current state of the wiki: what's been ingested, what's ne
 
 The manifest lives at `$OBSIDIAN_VAULT_PATH/.manifest.json`. It tracks every source file that has been ingested. If it doesn't exist, this is a fresh vault with nothing ingested.
 
+> **Source keys are canonical absolute paths** (`~` and env vars expanded). Never mix `~`-relative and absolute keys — the same file would be tracked twice and re-ingested. See `llm-wiki/SKILL.md` → `.manifest.json`. Repair a mixed manifest with `scripts/manifest.py normalize <vault>`.
+
 ```json
 {
   "version": 1,
@@ -37,7 +39,7 @@ The manifest lives at `$OBSIDIAN_VAULT_PATH/.manifest.json`. It tracks every sou
       "pages_created": ["concepts/transformers.md"],
       "pages_updated": ["entities/vaswani.md"]
     },
-    "~/.claude/projects/-Users-name-my-app/abc123.jsonl": {
+    "/Users/name/.claude/projects/-Users-name-my-app/abc123.jsonl": {
       "ingested_at": "2026-04-06T11:00:00Z",
       "size_bytes": 128000,
       "modified_at": "2026-04-06T09:00:00Z",
@@ -49,7 +51,7 @@ The manifest lives at `$OBSIDIAN_VAULT_PATH/.manifest.json`. It tracks every sou
   },
   "projects": {
     "my-app": {
-      "source_path": "~/.claude/projects/-Users-name-my-app",
+      "source_path": "/Users/name/.claude/projects/-Users-name-my-app",
       "vault_path": "projects/my-app",
       "last_ingested": "2026-04-06T11:00:00Z",
       "conversations_ingested": 5,

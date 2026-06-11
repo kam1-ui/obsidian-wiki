@@ -149,6 +149,10 @@ The manifest enables:
 - **Audit** — which source produced which wiki page
 - **Staleness detection** — source changed but wiki page hasn't been updated
 
+**Canonical source keys.** Source keys MUST be stored in a single canonical form: **absolute paths with `~` and env vars expanded** (e.g. `/Users/me/.claude/projects/.../abc.jsonl`, never `~/.claude/...`). The manifest is keyed by the raw string, so a mix of `~`-relative and absolute keys lets the *same file* be tracked twice — and the delta check then re-ingests an already-processed file because the lookup misses the other-form key. Always expand before you compare against the manifest and before you write a new entry. To repair an existing vault that already has both forms, run `scripts/manifest.py normalize <vault>` (merges colliding entries, keeps the newest `ingested_at`).
+
+**Recording provenance.** When you write a manifest entry, populate `pages_created` and `pages_updated` with the vault-relative page paths that source contributed to. This is what makes re-ingestion (when a source changes) able to find the pages to revisit, instead of guessing.
+
 ## Page Template
 
 When creating a new wiki page, use this structure:
@@ -488,6 +492,7 @@ The wiki is configured through environment variables (see `.env.example`). The o
 - `OBSIDIAN_VAULT_PATH` — Where the wiki lives **(required)**
 - `OBSIDIAN_SOURCES_DIR` — Where raw source documents are
 - `OBSIDIAN_CATEGORIES` — Comma-separated list of categories
+- `WIKI_SKIP_PROJECTS` — Comma-separated substrings; any project dir whose name contains one is excluded from history ingest (scan + delta + manifest). See the "Project Scoping" step in the history-ingest skills.
 - `CLAUDE_HISTORY_PATH` — Where to find Claude conversation data
 - `CODEX_HISTORY_PATH` — Where to find Codex session data
 - `HERMES_HOME` — Where to find Hermes agent data
