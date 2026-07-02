@@ -43,11 +43,28 @@ obsidian-wiki setup --vault /path/to/your/digital/brain
 ```bash
 obsidian-wiki list              # list the bundled skills
 obsidian-wiki info              # show install paths, version, and config
+obsidian-wiki doctor            # health-check config, vault shape, and installed skills
+obsidian-wiki query "rate limiting"  # query the configured vault from the terminal
+obsidian-wiki lint              # lint the configured vault for broken links / metadata gaps
 obsidian-wiki setup --project . # also drop project-local skills + AGENTS.md into the current repo
 obsidian-wiki setup --copy      # copy skill files instead of symlinking
 ```
 
 `OBSIDIAN_VAULT_PATH` is just any directory where you want your digital brain to live, a new empty folder or an existing Obsidian vault. Omit `--vault` to be prompted (or set it later in `~/.obsidian-wiki/config`).
+
+### Local CLI utilities
+
+The Python package also ships a few local commands for inspection and maintenance:
+
+```bash
+obsidian-wiki doctor --json
+obsidian-wiki query "what do I know about MCP security?"
+obsidian-wiki lint --strict
+obsidian-wiki graph-query /path/to/vault "transformer architecture"
+obsidian-wiki graph-analyse /path/to/vault --pretty
+```
+
+Use `doctor` to catch broken setup, stale installs, or malformed vault state. Use `query` and `lint` when you want fast local answers without going through an agent prompt. The lower-level `graph-query`, `graph-analyse`, `batch-plan`, `cache-*`, and `ast-extract` commands are still available for automation and debugging.
 
 ### Multiple Vaults
 
