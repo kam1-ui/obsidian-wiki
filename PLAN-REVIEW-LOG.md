@@ -289,3 +289,33 @@ VERDICT: APPROVED
 
 ### Resolution
 Converged in 5 rounds (36 → 25 → 12 → 7 → 0 findings). Plan locked as PLAN.md v5. Awaiting human sign-off before any implementation.
+
+## Act 3 — Build (étape 5 déléguée à Codex via /codex-build, décision utilisateur 2026-07-15)
+
+Rôles inversés vs plan : Codex = générateur (auth API), Claude = revue de diff + QA + futur auditeur gate 2 (« auditeur ≠ générateur » préservé par inversion). Déviation documentée au run report `wip-promo-2026-07-15`.
+
+### Round 1 — Codex build (séquence 1/4 : CLI + Lint + Agent Bootstrap, 16 notes → 3 pages)
+
+Thread `019f63b9-7dab-7830-a993-0c47da93e34e`, modèle défaut CLI, exit 0. Rapport Codex : 3 pages staged créées, index/log/hot/manifest à jour, preuve 90/90 PASS, seule déviation = report sanctionné du patch `entities/graphify.md` à la séquence 4. Usage : 920 327 input (dont 844 021 cachés), 15 555 output (737 reasoning) ≈ 1,27 $.
+
+### Claude's verdict (round 1)
+
+Preuve re-exécutée indépendamment : ALL CHECKS PASSED. Diff complet lu (4 fichiers trackés + 3 pages untracked) : distillation réelle par communauté (pas d'inventaire par note), provenance `^[inferred]` abondante et honnête, liens 100 % path-qualified, tags ⊆ taxonomie, sources exactes, manifest 16/16 avec hashes. Corrections Claude post-build : chown 1000:1000 de `_staging/` (Codex écrit en root ; les fichiers trackés modifiés ont conservé ubuntu). Point ouvert soumis à l'utilisateur : pages rédigées en anglais alors que la baseline est en français (aucun AGENTS.md vault ne fixe la langue — préférence à trancher avant séquence 2). 0 round de fix nécessaire sur le fond.
+
+Décision utilisateur post-round 1 : anglais conservé pour tout le run, traduction française seulement si la candidate gagne le gate humain (passe post-merge avec re-gate déterministe).
+
+### Round 2 — Codex build (séquence 2/4 : Cache + Graph Analysis + Batch, 20 notes → 3 pages)
+
+Thread `019f63c6-9b4c-75c0-86fe-85cab7d1859d` (session fraîche), exit 0. Usage : 830 403 input (89 % cachés), 13 482 output ≈ 1,22 $ plafond.
+
+### Claude's verdict (round 2)
+
+Preuve re-exécutée : ALL CHECKS PASSED (dont intégrité des 3 pages seq 1). 3 pages relues intégralement : cohérence de style avec seq 1, claims recoupant la QA de campagne, tags conformes au mapping taxonomie. chown 1000:1000 récurrent appliqué. 0 round de fix.
+
+### Round 3 — Codex build (séquence 3/4 : GraphRAG + AST + Maintenance + Brain Capture, 18 notes → 4 pages)
+
+Thread `019f63cc-648d-7e03-850d-015a4189cbc3` (session fraîche), exit 0. Build terminé pendant une interruption de la session Claude (épuisement tokens). Usage : 810 928 input (89,9 % cachés), 12 502 output ≈ 1,15 $ plafond.
+
+### Claude's verdict (round 3)
+
+Vérification en session fraîche, preuve `proof-step5-seq3.py` réécrite indépendamment (le script de la session interrompue n'avait pas persisté) : PASS intégral 51/51 — dont communautés {1,5,8,9,10,13,14} complètes, réciprocité manifest→pages 18/18, content_hash 18/18, intégrité seq 1-2. 4 pages relues intégralement : liens path-qualified, tags ⊆ taxonomie, spot-check de 5 claims contre les enrichments (troncatures brain-capture 140k/30k, suffixe temporel après 100 collisions, troncature 8k extract-jsonl, cannibalisation slugs graphrag) — 5/5 exacts, `^[inferred]` fidèles. chown 1000:1000 récurrent appliqué. 0 round de fix.
