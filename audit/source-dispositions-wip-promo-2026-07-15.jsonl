@@ -1,0 +1,16 @@
+{"source": "graphify-out/enrichments/obsidian_wiki_cli.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_bootstrap_dir.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_build_parser.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_check_stale.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_cmd_info.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_cmd_lint.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_cmd_query.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_cmd_setup.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_install_skills.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_list_skills.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_run_doctor.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_cli_skills_dir.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_lint.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/obsidian_wiki_lint_lint_vault.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/root_agents.enrichment.md", "verdict": "pass", "finding_ids": []}
+{"source": "graphify-out/enrichments/root_obsidian_wiki_skills_llm_wiki_skill.enrichment.md", "verdict": "pass", "finding_ids": []}
