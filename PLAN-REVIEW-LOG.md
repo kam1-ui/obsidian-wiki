@@ -319,3 +319,11 @@ Thread `019f63cc-648d-7e03-850d-015a4189cbc3` (session fraîche), exit 0. Build 
 ### Claude's verdict (round 3)
 
 Vérification en session fraîche, preuve `proof-step5-seq3.py` réécrite indépendamment (le script de la session interrompue n'avait pas persisté) : PASS intégral 51/51 — dont communautés {1,5,8,9,10,13,14} complètes, réciprocité manifest→pages 18/18, content_hash 18/18, intégrité seq 1-2. 4 pages relues intégralement : liens path-qualified, tags ⊆ taxonomie, spot-check de 5 claims contre les enrichments (troncatures brain-capture 140k/30k, suffixe temporel après 100 collisions, troncature 8k extract-jsonl, cannibalisation slugs graphrag) — 5/5 exacts, `^[inferred]` fidèles. chown 1000:1000 récurrent appliqué. 0 round de fix.
+
+### Round 4 — Codex build (séquence 4/4 finale : Skill Eval Tooling + overview + patch graphify, 13 notes → 2 pages + 1 patch)
+
+Thread `019f654f-3aba-70d2-9c60-030936c7c0ff` (session fraîche), exit 0. Deux décisions utilisateur pré-lancement : sources overview = GRAPH_REPORT.md + graph.json ; patch graphify = copie complète dans _staging/entities/. Usage : 1 239 303 input (92,4 % cachés), 11 768 output ≈ 1,40 $ plafond.
+
+### Claude's verdict (round 4)
+
+Preuve `proof-step5-seq4.py` ré-exécutée indépendamment : ALL CHECKS PASSED — dont couverture finale 67/67 éligibles au manifest, baseline entities/graphify.md byte-identique, intégrité seq 1-3. 3 livrables relus intégralement, 7 claims recoupés contre GRAPH_REPORT et enrichments (7/7 exacts, y compris « Import Cycles: None detected » pour la claim de modularité de l'overview). Diff du patch graphify minimal et conforme (update, pas de réécriture de schéma). chown récurrent appliqué. 0 round de fix. **Étape 5 complète : 12 pages + 1 patch, 0 fix round sur 4 séquences, ≈ 5,04 $ plafond cumulé.**
