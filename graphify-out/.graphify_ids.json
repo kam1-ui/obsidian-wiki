@@ -1,0 +1,3387 @@
+{
+ "claude_hooks_wiki_stop_capture": {
+  "label": "wiki-stop-capture.sh",
+  "norm_label": "wiki-stop-capture.sh",
+  "source_file": ".claude/hooks/wiki-stop-capture.sh"
+ },
+ "claude_hooks_wiki_stop_capture_sh__entry": {
+  "label": "wiki-stop-capture.sh script",
+  "norm_label": "wiki-stop-capture.sh script",
+  "source_file": ".claude/hooks/wiki-stop-capture.sh"
+ },
+ "skills_skill_creator_eval_viewer_generate_review": {
+  "label": "generate_review.py",
+  "norm_label": "generate_review.py",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_get_mime_type": {
+  "label": "get_mime_type()",
+  "norm_label": "get_mime_type()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "skills_skill_creator_eval_viewer_generate_review_find_runs": {
+  "label": "find_runs()",
+  "norm_label": "find_runs()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_find_runs_recursive": {
+  "label": "_find_runs_recursive()",
+  "norm_label": "_find_runs_recursive()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_build_run": {
+  "label": "build_run()",
+  "norm_label": "build_run()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_embed_file": {
+  "label": "embed_file()",
+  "norm_label": "embed_file()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_load_previous_iteration": {
+  "label": "load_previous_iteration()",
+  "norm_label": "load_previous_iteration()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_generate_html": {
+  "label": "generate_html()",
+  "norm_label": "generate_html()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_kill_port": {
+  "label": "_kill_port()",
+  "norm_label": "_kill_port()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_reviewhandler": {
+  "label": "ReviewHandler",
+  "norm_label": "reviewhandler",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "basehttprequesthandler": {
+  "label": "BaseHTTPRequestHandler",
+  "norm_label": "basehttprequesthandler",
+  "source_file": ""
+ },
+ "skills_skill_creator_eval_viewer_generate_review_reviewhandler_init": {
+  "label": ".__init__()",
+  "norm_label": ".__init__()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_reviewhandler_do_get": {
+  "label": ".do_GET()",
+  "norm_label": ".do_get()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_reviewhandler_do_post": {
+  "label": ".do_POST()",
+  "norm_label": ".do_post()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_reviewhandler_log_message": {
+  "label": ".log_message()",
+  "norm_label": ".log_message()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_rationale_61": {
+  "label": "Recursively find directories that contain an outputs/ subdirectory.",
+  "norm_label": "recursively find directories that contain an outputs/ subdirectory.",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_rationale_86": {
+  "label": "Build a run dict with prompt, outputs, and grading data.",
+  "norm_label": "build a run dict with prompt, outputs, and grading data.",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_rationale_150": {
+  "label": "Read a file and return an embedded representation.",
+  "norm_label": "read a file and return an embedded representation.",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_rationale_214": {
+  "label": "Load previous iteration's feedback and outputs.      Returns a map of run_id ->",
+  "norm_label": "load previous iteration's feedback and outputs.      returns a map of run_id ->",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_rationale_256": {
+  "label": "Generate the complete standalone HTML page with embedded data.",
+  "norm_label": "generate the complete standalone html page with embedded data.",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_rationale_289": {
+  "label": "Kill any process listening on the given port.",
+  "norm_label": "kill any process listening on the given port.",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_eval_viewer_generate_review_rationale_309": {
+  "label": "Serves the review HTML and handles feedback saves.      Regenerates the HTML on",
+  "norm_label": "serves the review html and handles feedback saves.      regenerates the html on",
+  "source_file": ".skills/skill-creator/eval-viewer/generate_review.py"
+ },
+ "skills_skill_creator_scripts_init": {
+  "label": "__init__.py",
+  "norm_label": "__init__.py",
+  "source_file": ".skills/skill-creator/scripts/__init__.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark": {
+  "label": "aggregate_benchmark.py",
+  "norm_label": "aggregate_benchmark.py",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_calculate_stats": {
+  "label": "calculate_stats()",
+  "norm_label": "calculate_stats()",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_load_run_results": {
+  "label": "load_run_results()",
+  "norm_label": "load_run_results()",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_aggregate_results": {
+  "label": "aggregate_results()",
+  "norm_label": "aggregate_results()",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_generate_benchmark": {
+  "label": "generate_benchmark()",
+  "norm_label": "generate_benchmark()",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_generate_markdown": {
+  "label": "generate_markdown()",
+  "norm_label": "generate_markdown()",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_rationale_46": {
+  "label": "Calculate mean, stddev, min, max for a list of values.",
+  "norm_label": "calculate mean, stddev, min, max for a list of values.",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_rationale_68": {
+  "label": "Load all run results from a benchmark directory.      Returns dict keyed by conf",
+  "norm_label": "load all run results from a benchmark directory.      returns dict keyed by conf",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_rationale_177": {
+  "label": "Aggregate run results into summary statistics.      Returns run_summary with sta",
+  "norm_label": "aggregate run results into summary statistics.      returns run_summary with sta",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_rationale_228": {
+  "label": "Generate complete benchmark.json from run results.",
+  "norm_label": "generate complete benchmark.json from run results.",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_aggregate_benchmark_rationale_282": {
+  "label": "Generate human-readable benchmark.md from benchmark data.",
+  "norm_label": "generate human-readable benchmark.md from benchmark data.",
+  "source_file": ".skills/skill-creator/scripts/aggregate_benchmark.py"
+ },
+ "skills_skill_creator_scripts_generate_report": {
+  "label": "generate_report.py",
+  "norm_label": "generate_report.py",
+  "source_file": ".skills/skill-creator/scripts/generate_report.py"
+ },
+ "skills_skill_creator_scripts_generate_report_generate_html": {
+  "label": "generate_html()",
+  "norm_label": "generate_html()",
+  "source_file": ".skills/skill-creator/scripts/generate_report.py"
+ },
+ "skills_skill_creator_scripts_generate_report_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": ".skills/skill-creator/scripts/generate_report.py"
+ },
+ "skills_skill_creator_scripts_generate_report_rationale_17": {
+  "label": "Generate HTML report from loop output data. If auto_refresh is True, adds a meta",
+  "norm_label": "generate html report from loop output data. if auto_refresh is true, adds a meta",
+  "source_file": ".skills/skill-creator/scripts/generate_report.py"
+ },
+ "skills_skill_creator_scripts_improve_description": {
+  "label": "improve_description.py",
+  "norm_label": "improve_description.py",
+  "source_file": ".skills/skill-creator/scripts/improve_description.py"
+ },
+ "skills_skill_creator_scripts_improve_description_call_claude": {
+  "label": "_call_claude()",
+  "norm_label": "_call_claude()",
+  "source_file": ".skills/skill-creator/scripts/improve_description.py"
+ },
+ "skills_skill_creator_scripts_improve_description_improve_description": {
+  "label": "improve_description()",
+  "norm_label": "improve_description()",
+  "source_file": ".skills/skill-creator/scripts/improve_description.py"
+ },
+ "skills_skill_creator_scripts_improve_description_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "skills_skill_creator_scripts_improve_description_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": ".skills/skill-creator/scripts/improve_description.py"
+ },
+ "skills_skill_creator_scripts_improve_description_rationale_21": {
+  "label": "Run `claude -p` with the prompt on stdin and return the text response.      Prom",
+  "norm_label": "run `claude -p` with the prompt on stdin and return the text response.      prom",
+  "source_file": ".skills/skill-creator/scripts/improve_description.py"
+ },
+ "skills_skill_creator_scripts_improve_description_rationale_61": {
+  "label": "Call Claude to improve the description based on eval results.",
+  "norm_label": "call claude to improve the description based on eval results.",
+  "source_file": ".skills/skill-creator/scripts/improve_description.py"
+ },
+ "skills_skill_creator_scripts_package_skill": {
+  "label": "package_skill.py",
+  "norm_label": "package_skill.py",
+  "source_file": ".skills/skill-creator/scripts/package_skill.py"
+ },
+ "skills_skill_creator_scripts_package_skill_should_exclude": {
+  "label": "should_exclude()",
+  "norm_label": "should_exclude()",
+  "source_file": ".skills/skill-creator/scripts/package_skill.py"
+ },
+ "skills_skill_creator_scripts_package_skill_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "skills_skill_creator_scripts_package_skill_package_skill": {
+  "label": "package_skill()",
+  "norm_label": "package_skill()",
+  "source_file": ".skills/skill-creator/scripts/package_skill.py"
+ },
+ "skills_skill_creator_scripts_package_skill_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": ".skills/skill-creator/scripts/package_skill.py"
+ },
+ "skills_skill_creator_scripts_package_skill_rationale_28": {
+  "label": "Check if a path should be excluded from packaging.",
+  "norm_label": "check if a path should be excluded from packaging.",
+  "source_file": ".skills/skill-creator/scripts/package_skill.py"
+ },
+ "skills_skill_creator_scripts_package_skill_rationale_43": {
+  "label": "Package a skill folder into a .skill file.      Args:         skill_path: Path t",
+  "norm_label": "package a skill folder into a .skill file.      args:         skill_path: path t",
+  "source_file": ".skills/skill-creator/scripts/package_skill.py"
+ },
+ "skills_skill_creator_scripts_quick_validate": {
+  "label": "quick_validate.py",
+  "norm_label": "quick_validate.py",
+  "source_file": ".skills/skill-creator/scripts/quick_validate.py"
+ },
+ "skills_skill_creator_scripts_quick_validate_validate_skill": {
+  "label": "validate_skill()",
+  "norm_label": "validate_skill()",
+  "source_file": ".skills/skill-creator/scripts/quick_validate.py"
+ },
+ "skills_skill_creator_scripts_quick_validate_rationale_13": {
+  "label": "Basic validation of a skill",
+  "norm_label": "basic validation of a skill",
+  "source_file": ".skills/skill-creator/scripts/quick_validate.py"
+ },
+ "skills_skill_creator_scripts_run_eval": {
+  "label": "run_eval.py",
+  "norm_label": "run_eval.py",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_eval_find_project_root": {
+  "label": "find_project_root()",
+  "norm_label": "find_project_root()",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_eval_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "skills_skill_creator_scripts_run_eval_run_single_query": {
+  "label": "run_single_query()",
+  "norm_label": "run_single_query()",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_eval_run_eval": {
+  "label": "run_eval()",
+  "norm_label": "run_eval()",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_eval_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_eval_rationale_23": {
+  "label": "Find the project root by walking up from cwd looking for .claude/.      Mimics h",
+  "norm_label": "find the project root by walking up from cwd looking for .claude/.      mimics h",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_eval_rationale_43": {
+  "label": "Run a single query and return whether the skill was triggered.      Creates a co",
+  "norm_label": "run a single query and return whether the skill was triggered.      creates a co",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_eval_rationale_195": {
+  "label": "Run the full eval set and return results.",
+  "norm_label": "run the full eval set and return results.",
+  "source_file": ".skills/skill-creator/scripts/run_eval.py"
+ },
+ "skills_skill_creator_scripts_run_loop": {
+  "label": "run_loop.py",
+  "norm_label": "run_loop.py",
+  "source_file": ".skills/skill-creator/scripts/run_loop.py"
+ },
+ "skills_skill_creator_scripts_run_loop_split_eval_set": {
+  "label": "split_eval_set()",
+  "norm_label": "split_eval_set()",
+  "source_file": ".skills/skill-creator/scripts/run_loop.py"
+ },
+ "skills_skill_creator_scripts_run_loop_run_loop": {
+  "label": "run_loop()",
+  "norm_label": "run_loop()",
+  "source_file": ".skills/skill-creator/scripts/run_loop.py"
+ },
+ "skills_skill_creator_scripts_run_loop_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "skills_skill_creator_scripts_run_loop_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": ".skills/skill-creator/scripts/run_loop.py"
+ },
+ "skills_skill_creator_scripts_run_loop_rationale_25": {
+  "label": "Split eval set into train and test sets, stratified by should_trigger.",
+  "norm_label": "split eval set into train and test sets, stratified by should_trigger.",
+  "source_file": ".skills/skill-creator/scripts/run_loop.py"
+ },
+ "skills_skill_creator_scripts_run_loop_rationale_62": {
+  "label": "Run the eval + improvement loop.",
+  "norm_label": "run the eval + improvement loop.",
+  "source_file": ".skills/skill-creator/scripts/run_loop.py"
+ },
+ "skills_skill_creator_scripts_utils": {
+  "label": "utils.py",
+  "norm_label": "utils.py",
+  "source_file": ".skills/skill-creator/scripts/utils.py"
+ },
+ "skills_skill_creator_scripts_utils_parse_skill_md": {
+  "label": "parse_skill_md()",
+  "norm_label": "parse_skill_md()",
+  "source_file": ".skills/skill-creator/scripts/utils.py"
+ },
+ "skills_skill_creator_scripts_utils_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "skills_skill_creator_scripts_utils_rationale_1": {
+  "label": "Shared utilities for skill-creator scripts.",
+  "norm_label": "shared utilities for skill-creator scripts.",
+  "source_file": ".skills/skill-creator/scripts/utils.py"
+ },
+ "skills_skill_creator_scripts_utils_rationale_8": {
+  "label": "Parse a SKILL.md file, returning (name, description, full_content).",
+  "norm_label": "parse a skill.md file, returning (name, description, full_content).",
+  "source_file": ".skills/skill-creator/scripts/utils.py"
+ },
+ "extensions_brain_capture_background": {
+  "label": "background.js",
+  "norm_label": "background.js",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_createcontextmenus": {
+  "label": "createContextMenus()",
+  "norm_label": "createcontextmenus()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_isblockedurl": {
+  "label": "isBlockedUrl()",
+  "norm_label": "isblockedurl()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_showneedspopup": {
+  "label": "showNeedsPopup()",
+  "norm_label": "showneedspopup()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_flashbadge": {
+  "label": "flashBadge()",
+  "norm_label": "flashbadge()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_haswritepermission": {
+  "label": "hasWritePermission()",
+  "norm_label": "haswritepermission()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_extractpagefromtab": {
+  "label": "extractPageFromTab()",
+  "norm_label": "extractpagefromtab()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_buildselectionpage": {
+  "label": "buildSelectionPage()",
+  "norm_label": "buildselectionpage()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_writemarkdown": {
+  "label": "writeMarkdown()",
+  "norm_label": "writemarkdown()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_getuniquefilehandle": {
+  "label": "getUniqueFileHandle()",
+  "norm_label": "getuniquefilehandle()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_buildfilename": {
+  "label": "buildFilename()",
+  "norm_label": "buildfilename()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_buildmarkdown": {
+  "label": "buildMarkdown()",
+  "norm_label": "buildmarkdown()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_escapeyaml": {
+  "label": "escapeYaml()",
+  "norm_label": "escapeyaml()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_opendb": {
+  "label": "openDb()",
+  "norm_label": "opendb()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_loadrawhandle": {
+  "label": "loadRawHandle()",
+  "norm_label": "loadrawhandle()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_background_extractpage": {
+  "label": "extractPage()",
+  "norm_label": "extractpage()",
+  "source_file": "extensions/brain-capture/background.js"
+ },
+ "extensions_brain_capture_manifest": {
+  "label": "manifest.json",
+  "norm_label": "manifest.json",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_manifest_version": {
+  "label": "manifest_version",
+  "norm_label": "manifest_version",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_name": {
+  "label": "name",
+  "norm_label": "name",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_description": {
+  "label": "description",
+  "norm_label": "description",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_version": {
+  "label": "version",
+  "norm_label": "version",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_action": {
+  "label": "action",
+  "norm_label": "action",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_action_default_title": {
+  "label": "default_title",
+  "norm_label": "default_title",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_action_default_popup": {
+  "label": "default_popup",
+  "norm_label": "default_popup",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_action_default_icon": {
+  "label": "default_icon",
+  "norm_label": "default_icon",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_default_icon_16": {
+  "label": "16",
+  "norm_label": "16",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_default_icon_48": {
+  "label": "48",
+  "norm_label": "48",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_default_icon_128": {
+  "label": "128",
+  "norm_label": "128",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_icons": {
+  "label": "icons",
+  "norm_label": "icons",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_icons_16": {
+  "label": "16",
+  "norm_label": "16",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_icons_48": {
+  "label": "48",
+  "norm_label": "48",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_icons_128": {
+  "label": "128",
+  "norm_label": "128",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_background": {
+  "label": "background",
+  "norm_label": "background",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_background_service_worker": {
+  "label": "service_worker",
+  "norm_label": "service_worker",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_manifest_permissions": {
+  "label": "permissions",
+  "norm_label": "permissions",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "ref_activetab": {
+  "label": "activeTab",
+  "norm_label": "activetab",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "ref_contextmenus": {
+  "label": "contextMenus",
+  "norm_label": "contextmenus",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "ref_scripting": {
+  "label": "scripting",
+  "norm_label": "scripting",
+  "source_file": "extensions/brain-capture/manifest.json"
+ },
+ "extensions_brain_capture_popup": {
+  "label": "popup.js",
+  "norm_label": "popup.js",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_folderstatus": {
+  "label": "folderStatus",
+  "norm_label": "folderstatus",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_choosefolder": {
+  "label": "chooseFolder",
+  "norm_label": "choosefolder",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_capturebutton": {
+  "label": "captureButton",
+  "norm_label": "capturebutton",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_pathhelpbutton": {
+  "label": "pathHelpButton",
+  "norm_label": "pathhelpbutton",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_pathpanel": {
+  "label": "pathPanel",
+  "norm_label": "pathpanel",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_pathcommand": {
+  "label": "pathCommand",
+  "norm_label": "pathcommand",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_copystatus": {
+  "label": "copyStatus",
+  "norm_label": "copystatus",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_notefield": {
+  "label": "noteField",
+  "norm_label": "notefield",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_statusline": {
+  "label": "statusLine",
+  "norm_label": "statusline",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_init": {
+  "label": "init()",
+  "norm_label": "init()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_ensurewritable": {
+  "label": "ensureWritable()",
+  "norm_label": "ensurewritable()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_writemarkdown": {
+  "label": "writeMarkdown()",
+  "norm_label": "writemarkdown()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_getuniquefilehandle": {
+  "label": "getUniqueFileHandle()",
+  "norm_label": "getuniquefilehandle()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_buildfilename": {
+  "label": "buildFilename()",
+  "norm_label": "buildfilename()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_buildmarkdown": {
+  "label": "buildMarkdown()",
+  "norm_label": "buildmarkdown()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_escapeyaml": {
+  "label": "escapeYaml()",
+  "norm_label": "escapeyaml()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_setfolderstatus": {
+  "label": "setFolderStatus()",
+  "norm_label": "setfolderstatus()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_setstatus": {
+  "label": "setStatus()",
+  "norm_label": "setstatus()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_setbusy": {
+  "label": "setBusy()",
+  "norm_label": "setbusy()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_opendb": {
+  "label": "openDb()",
+  "norm_label": "opendb()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_loadrawhandle": {
+  "label": "loadRawHandle()",
+  "norm_label": "loadrawhandle()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_saverawhandle": {
+  "label": "saveRawHandle()",
+  "norm_label": "saverawhandle()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "extensions_brain_capture_popup_extractpage": {
+  "label": "extractPage()",
+  "norm_label": "extractpage()",
+  "source_file": "extensions/brain-capture/popup.js"
+ },
+ "obsidian_wiki_init": {
+  "label": "__init__.py",
+  "norm_label": "__init__.py",
+  "source_file": "obsidian_wiki/__init__.py"
+ },
+ "obsidian_wiki_init_rationale_1": {
+  "label": "obsidian-wiki: install the LLM-Wiki agent skills into your AI coding agents.  Th",
+  "norm_label": "obsidian-wiki: install the llm-wiki agent skills into your ai coding agents.  th",
+  "source_file": "obsidian_wiki/__init__.py"
+ },
+ "obsidian_wiki_main": {
+  "label": "__main__.py",
+  "norm_label": "__main__.py",
+  "source_file": "obsidian_wiki/__main__.py"
+ },
+ "obsidian_wiki_main_rationale_1": {
+  "label": "Enable ``python -m obsidian_wiki``.",
+  "norm_label": "enable ``python -m obsidian_wiki``.",
+  "source_file": "obsidian_wiki/__main__.py"
+ },
+ "obsidian_wiki_ast_extractor": {
+  "label": "ast_extractor.py",
+  "norm_label": "ast_extractor.py",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_node": {
+  "label": "Node",
+  "norm_label": "node",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_edge": {
+  "label": "Edge",
+  "norm_label": "edge",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_graph": {
+  "label": "Graph",
+  "norm_label": "graph",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_graph_merge": {
+  "label": ".merge()",
+  "norm_label": ".merge()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_graph_to_dict": {
+  "label": ".to_dict()",
+  "norm_label": ".to_dict()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_langspec": {
+  "label": "LangSpec",
+  "norm_label": "langspec",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_file_id": {
+  "label": "_file_id()",
+  "norm_label": "_file_id()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_extract_file": {
+  "label": "extract_file()",
+  "norm_label": "extract_file()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "obsidian_wiki_ast_extractor_walk_code_files": {
+  "label": "_walk_code_files()",
+  "norm_label": "_walk_code_files()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_os_walk": {
+  "label": "_os_walk()",
+  "norm_label": "_os_walk()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_extract_directory": {
+  "label": "extract_directory()",
+  "norm_label": "extract_directory()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_extract": {
+  "label": "extract()",
+  "norm_label": "extract()",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_rationale_1": {
+  "label": "Local AST-based code structure extractor.  Extracts classes, functions, and impo",
+  "norm_label": "local ast-based code structure extractor.  extracts classes, functions, and impo",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_rationale_256": {
+  "label": "Stable node ID: <relative_path>::<name>.",
+  "norm_label": "stable node id: <relative_path>::<name>.",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_rationale_261": {
+  "label": "Extract nodes and edges from a single code file.",
+  "norm_label": "extract nodes and edges from a single code file.",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_rationale_356": {
+  "label": "Extract all code files under *root*, merging into one graph.",
+  "norm_label": "extract all code files under *root*, merging into one graph.",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_ast_extractor_rationale_380": {
+  "label": "Extract from a file or directory, return serialisable dict.",
+  "norm_label": "extract from a file or directory, return serialisable dict.",
+  "source_file": "obsidian_wiki/ast_extractor.py"
+ },
+ "obsidian_wiki_batch": {
+  "label": "batch.py",
+  "norm_label": "batch.py",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_classify": {
+  "label": "_classify()",
+  "norm_label": "_classify()",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "obsidian_wiki_batch_file_size": {
+  "label": "_file_size()",
+  "norm_label": "_file_size()",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_discover_sources": {
+  "label": "discover_sources()",
+  "norm_label": "discover_sources()",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_filter_unchanged": {
+  "label": "_filter_unchanged()",
+  "norm_label": "_filter_unchanged()",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_make_batches": {
+  "label": "_make_batches()",
+  "norm_label": "_make_batches()",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_plan_batches": {
+  "label": "plan_batches()",
+  "norm_label": "plan_batches()",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_py_any": {
+  "label": "Any",
+  "norm_label": "any",
+  "source_file": ""
+ },
+ "obsidian_wiki_batch_rationale_1": {
+  "label": "Batch planner for parallel wiki-ingest subagent dispatch.  When ingesting a larg",
+  "norm_label": "batch planner for parallel wiki-ingest subagent dispatch.  when ingesting a larg",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_rationale_107": {
+  "label": "Walk source_dir and return a list of ingestible file dicts.      Each dict: {pat",
+  "norm_label": "walk source_dir and return a list of ingestible file dicts.      each dict: {pat",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_rationale_137": {
+  "label": "Remove files whose hash matches the manifest. Returns (to_ingest, skipped_count)",
+  "norm_label": "remove files whose hash matches the manifest. returns (to_ingest, skipped_count)",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_rationale_159": {
+  "label": "Split files into batches respecting size and file-count limits.",
+  "norm_label": "split files into batches respecting size and file-count limits.",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_batch_rationale_194": {
+  "label": "Discover sources, filter unchanged, and split into batches.",
+  "norm_label": "discover sources, filter unchanged, and split into batches.",
+  "source_file": "obsidian_wiki/batch.py"
+ },
+ "obsidian_wiki_cache": {
+  "label": "cache.py",
+  "norm_label": "cache.py",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_sourceentry": {
+  "label": "SourceEntry",
+  "norm_label": "sourceentry",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "typeddict": {
+  "label": "TypedDict",
+  "norm_label": "typeddict",
+  "source_file": ""
+ },
+ "obsidian_wiki_cache_checkresult": {
+  "label": "CheckResult",
+  "norm_label": "checkresult",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_manifest_path": {
+  "label": "_manifest_path()",
+  "norm_label": "_manifest_path()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "obsidian_wiki_cache_load_manifest": {
+  "label": "_load_manifest()",
+  "norm_label": "_load_manifest()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_save_manifest": {
+  "label": "_save_manifest()",
+  "norm_label": "_save_manifest()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_sha256_file": {
+  "label": "sha256_file()",
+  "norm_label": "sha256_file()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_sha256_dir": {
+  "label": "sha256_dir()",
+  "norm_label": "sha256_dir()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_compute_hash": {
+  "label": "compute_hash()",
+  "norm_label": "compute_hash()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_check_sources": {
+  "label": "check_sources()",
+  "norm_label": "check_sources()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_update_source": {
+  "label": "update_source()",
+  "norm_label": "update_source()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_hash_file": {
+  "label": "hash_file()",
+  "norm_label": "hash_file()",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_rationale_1": {
+  "label": "Content-hash cache for wiki-ingest source tracking.  Provides a reliable, platfo",
+  "norm_label": "content-hash cache for wiki-ingest source tracking.  provides a reliable, platfo",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_rationale_70": {
+  "label": "Return the hex SHA-256 digest of *path* without loading it all into RAM.",
+  "norm_label": "return the hex sha-256 digest of *path* without loading it all into ram.",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_rationale_82": {
+  "label": "Stable SHA-256 over all files in a directory tree (sorted by relative path).",
+  "norm_label": "stable sha-256 over all files in a directory tree (sorted by relative path).",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_rationale_99": {
+  "label": "Classify each source as new / modified / unchanged vs. the manifest.      Also r",
+  "norm_label": "classify each source as new / modified / unchanged vs. the manifest.      also r",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_rationale_135": {
+  "label": "Record the current hash of *source_path* in the manifest. Returns the hash.",
+  "norm_label": "record the current hash of *source_path* in the manifest. returns the hash.",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cache_rationale_150": {
+  "label": "Just compute and return the hash \u2014 no manifest I/O.",
+  "norm_label": "just compute and return the hash \u2014 no manifest i/o.",
+  "source_file": "obsidian_wiki/cache.py"
+ },
+ "obsidian_wiki_cli": {
+  "label": "cli.py",
+  "norm_label": "cli.py",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_pkg_dir": {
+  "label": "_pkg_dir()",
+  "norm_label": "_pkg_dir()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "obsidian_wiki_cli_skills_dir": {
+  "label": "skills_dir()",
+  "norm_label": "skills_dir()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_bootstrap_dir": {
+  "label": "bootstrap_dir()",
+  "norm_label": "bootstrap_dir()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_list_skills": {
+  "label": "list_skills()",
+  "norm_label": "list_skills()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_install_skills": {
+  "label": "install_skills()",
+  "norm_label": "install_skills()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_install_global_skills": {
+  "label": "install_global_skills()",
+  "norm_label": "install_global_skills()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_install_hermes_profiles": {
+  "label": "_install_hermes_profiles()",
+  "norm_label": "_install_hermes_profiles()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_resolve_bootstrap_src": {
+  "label": "_resolve_bootstrap_src()",
+  "norm_label": "_resolve_bootstrap_src()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_install_project": {
+  "label": "install_project()",
+  "norm_label": "install_project()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_read_config_value": {
+  "label": "_read_config_value()",
+  "norm_label": "_read_config_value()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_read_config": {
+  "label": "_read_config()",
+  "norm_label": "_read_config()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_resolve_vault_path": {
+  "label": "resolve_vault_path()",
+  "norm_label": "resolve_vault_path()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_write_config": {
+  "label": "write_config()",
+  "norm_label": "write_config()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_check_stale": {
+  "label": "_check_stale()",
+  "norm_label": "_check_stale()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_doctor_add": {
+  "label": "_doctor_add()",
+  "norm_label": "_doctor_add()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_doctor_status": {
+  "label": "_doctor_status()",
+  "norm_label": "_doctor_status()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_required_vault_paths": {
+  "label": "_required_vault_paths()",
+  "norm_label": "_required_vault_paths()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_doctor_project_check": {
+  "label": "_doctor_project_check()",
+  "norm_label": "_doctor_project_check()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_run_doctor": {
+  "label": "run_doctor()",
+  "norm_label": "run_doctor()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_print_doctor": {
+  "label": "_print_doctor()",
+  "norm_label": "_print_doctor()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_setup": {
+  "label": "cmd_setup()",
+  "norm_label": "cmd_setup()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_py_namespace": {
+  "label": "Namespace",
+  "norm_label": "namespace",
+  "source_file": ""
+ },
+ "obsidian_wiki_cli_cmd_graph_query": {
+  "label": "cmd_graph_query()",
+  "norm_label": "cmd_graph_query()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_batch_plan": {
+  "label": "cmd_batch_plan()",
+  "norm_label": "cmd_batch_plan()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_graph_analyse": {
+  "label": "cmd_graph_analyse()",
+  "norm_label": "cmd_graph_analyse()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_cache_check": {
+  "label": "cmd_cache_check()",
+  "norm_label": "cmd_cache_check()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_cache_update": {
+  "label": "cmd_cache_update()",
+  "norm_label": "cmd_cache_update()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_cache_hash": {
+  "label": "cmd_cache_hash()",
+  "norm_label": "cmd_cache_hash()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_ast_extract": {
+  "label": "cmd_ast_extract()",
+  "norm_label": "cmd_ast_extract()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_doctor": {
+  "label": "cmd_doctor()",
+  "norm_label": "cmd_doctor()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_print_lint": {
+  "label": "_print_lint()",
+  "norm_label": "_print_lint()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_lint": {
+  "label": "cmd_lint()",
+  "norm_label": "cmd_lint()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_print_query": {
+  "label": "_print_query()",
+  "norm_label": "_print_query()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_query": {
+  "label": "cmd_query()",
+  "norm_label": "cmd_query()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_list": {
+  "label": "cmd_list()",
+  "norm_label": "cmd_list()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_cmd_info": {
+  "label": "cmd_info()",
+  "norm_label": "cmd_info()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_build_parser": {
+  "label": "build_parser()",
+  "norm_label": "build_parser()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "argumentparser": {
+  "label": "ArgumentParser",
+  "norm_label": "argumentparser",
+  "source_file": ""
+ },
+ "obsidian_wiki_cli_add_setup_args": {
+  "label": "_add_setup_args()",
+  "norm_label": "_add_setup_args()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_rationale_1": {
+  "label": "obsidian-wiki installer CLI.  Python port of ``setup.sh`` for the pip-installed",
+  "norm_label": "obsidian-wiki installer cli.  python port of ``setup.sh`` for the pip-installed",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_rationale_39": {
+  "label": "Return the directory holding the bundled skill folders.",
+  "norm_label": "return the directory holding the bundled skill folders.",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_rationale_50": {
+  "label": "Return the directory containing agent bootstrap context files.      For a wheel",
+  "norm_label": "return the directory containing agent bootstrap context files.      for a wheel",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_rationale_78": {
+  "label": "Install bundled skills into *target_dir*. Returns the count installed.",
+  "norm_label": "install bundled skills into *target_dir*. returns the count installed.",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_rationale_139": {
+  "label": "Mirror setup.sh: install into the active and all named Hermes profiles.",
+  "norm_label": "mirror setup.sh: install into the active and all named hermes profiles.",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_rationale_187": {
+  "label": "Resolve a bootstrap source path under a wheel layout or repo layout.",
+  "norm_label": "resolve a bootstrap source path under a wheel layout or repo layout.",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_cli_rationale_295": {
+  "label": "Warn if the installed version doesn't match when setup last ran, or if skills ar",
+  "norm_label": "warn if the installed version doesn't match when setup last ran, or if skills ar",
+  "source_file": "obsidian_wiki/cli.py"
+ },
+ "obsidian_wiki_graph_analysis": {
+  "label": "graph_analysis.py",
+  "norm_label": "graph_analysis.py",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_slug": {
+  "label": "_slug()",
+  "norm_label": "_slug()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_page_slug": {
+  "label": "_page_slug()",
+  "norm_label": "_page_slug()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "obsidian_wiki_graph_analysis_parse_vault_graph": {
+  "label": "parse_vault_graph()",
+  "norm_label": "parse_vault_graph()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_build_degree_tables": {
+  "label": "_build_degree_tables()",
+  "norm_label": "_build_degree_tables()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_god_nodes": {
+  "label": "god_nodes()",
+  "norm_label": "god_nodes()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_dead_ends": {
+  "label": "dead_ends()",
+  "norm_label": "dead_ends()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_isolated": {
+  "label": "isolated()",
+  "norm_label": "isolated()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_modularity": {
+  "label": "_modularity()",
+  "norm_label": "_modularity()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_detect_communities_greedy": {
+  "label": "detect_communities_greedy()",
+  "norm_label": "detect_communities_greedy()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_detect_communities": {
+  "label": "detect_communities()",
+  "norm_label": "detect_communities()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_surprising_connections": {
+  "label": "surprising_connections()",
+  "norm_label": "surprising_connections()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_label_community": {
+  "label": "_label_community()",
+  "norm_label": "_label_community()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_analyse_vault": {
+  "label": "analyse_vault()",
+  "norm_label": "analyse_vault()",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_py_any": {
+  "label": "Any",
+  "norm_label": "any",
+  "source_file": ""
+ },
+ "obsidian_wiki_graph_analysis_rationale_1": {
+  "label": "Vault graph analysis: community detection, god nodes, surprising connections.  R",
+  "norm_label": "vault graph analysis: community detection, god nodes, surprising connections.  r",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_47": {
+  "label": "Normalise a wikilink target to a page slug.",
+  "norm_label": "normalise a wikilink target to a page slug.",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_56": {
+  "label": "Parse all .md pages and return (outgoing_edges, page_tags).      outgoing_edges:",
+  "norm_label": "parse all .md pages and return (outgoing_edges, page_tags).      outgoing_edges:",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_141": {
+  "label": "Pages with no outgoing links.",
+  "norm_label": "pages with no outgoing links.",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_146": {
+  "label": "Pages with zero links in either direction.",
+  "norm_label": "pages with zero links in either direction.",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_156": {
+  "label": "Approximate modularity Q for an undirected projection of outgoing edges.",
+  "norm_label": "approximate modularity q for an undirected projection of outgoing edges.",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_177": {
+  "label": "Greedy modularity community detection (label propagation variant).      Fast O(n",
+  "norm_label": "greedy modularity community detection (label propagation variant).      fast o(n",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_221": {
+  "label": "Try Leiden (leidenalg + igraph) first; fall back to greedy label propagation.",
+  "norm_label": "try leiden (leidenalg + igraph) first; fall back to greedy label propagation.",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graph_analysis_rationale_253": {
+  "label": "Edges that cross community boundaries, ranked by unexpectedness.      Score = 1",
+  "norm_label": "edges that cross community boundaries, ranked by unexpectedness.      score = 1",
+  "source_file": "obsidian_wiki/graph_analysis.py"
+ },
+ "obsidian_wiki_graphrag": {
+  "label": "graphrag.py",
+  "norm_label": "graphrag.py",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_slug": {
+  "label": "_slug()",
+  "norm_label": "_slug()",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_build_index": {
+  "label": "build_index()",
+  "norm_label": "build_index()",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "obsidian_wiki_graphrag_score": {
+  "label": "_score()",
+  "norm_label": "_score()",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_rank_candidates": {
+  "label": "rank_candidates()",
+  "norm_label": "rank_candidates()",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_find_path": {
+  "label": "find_path()",
+  "norm_label": "find_path()",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_classify_query": {
+  "label": "classify_query()",
+  "norm_label": "classify_query()",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_query": {
+  "label": "query()",
+  "norm_label": "query()",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_py_any": {
+  "label": "Any",
+  "norm_label": "any",
+  "source_file": ""
+ },
+ "obsidian_wiki_graphrag_rationale_1": {
+  "label": "GraphRAG query index for wiki-query.  Builds a compact in-memory index from vaul",
+  "norm_label": "graphrag query index for wiki-query.  builds a compact in-memory index from vaul",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_rationale_58": {
+  "label": "Build a lightweight index dict from vault frontmatter and wikilinks.      Return",
+  "norm_label": "build a lightweight index dict from vault frontmatter and wikilinks.      return",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_rationale_210": {
+  "label": "BFS shortest path from source to target through wikilinks.",
+  "norm_label": "bfs shortest path from source to target through wikilinks.",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_graphrag_rationale_257": {
+  "label": "Return (answer_type, extracted_terms).      answer_type: \"path\" | \"gap\" | \"list\"",
+  "norm_label": "return (answer_type, extracted_terms).      answer_type: \"path\" | \"gap\" | \"list\"",
+  "source_file": "obsidian_wiki/graphrag.py"
+ },
+ "obsidian_wiki_lint": {
+  "label": "lint.py",
+  "norm_label": "lint.py",
+  "source_file": "obsidian_wiki/lint.py"
+ },
+ "obsidian_wiki_lint_slug": {
+  "label": "_slug()",
+  "norm_label": "_slug()",
+  "source_file": "obsidian_wiki/lint.py"
+ },
+ "obsidian_wiki_lint_iter_pages": {
+  "label": "_iter_pages()",
+  "norm_label": "_iter_pages()",
+  "source_file": "obsidian_wiki/lint.py"
+ },
+ "obsidian_wiki_lint_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "obsidian_wiki_lint_parse_frontmatter_values": {
+  "label": "_parse_frontmatter_values()",
+  "norm_label": "_parse_frontmatter_values()",
+  "source_file": "obsidian_wiki/lint.py"
+ },
+ "obsidian_wiki_lint_parse_page": {
+  "label": "_parse_page()",
+  "norm_label": "_parse_page()",
+  "source_file": "obsidian_wiki/lint.py"
+ },
+ "obsidian_wiki_lint_py_any": {
+  "label": "Any",
+  "norm_label": "any",
+  "source_file": ""
+ },
+ "obsidian_wiki_lint_lint_vault": {
+  "label": "lint_vault()",
+  "norm_label": "lint_vault()",
+  "source_file": "obsidian_wiki/lint.py"
+ },
+ "obsidian_wiki_lint_rationale_1": {
+  "label": "Vault lint checks for wiki structure and metadata hygiene.",
+  "norm_label": "vault lint checks for wiki structure and metadata hygiene.",
+  "source_file": "obsidian_wiki/lint.py"
+ },
+ "pkg_obsidian_wiki": {
+  "label": "obsidian-wiki",
+  "norm_label": "obsidian-wiki",
+  "source_file": "pyproject.toml"
+ },
+ "scripts_daily_update": {
+  "label": "daily-update.sh",
+  "norm_label": "daily-update.sh",
+  "source_file": "scripts/daily-update.sh"
+ },
+ "scripts_daily_update_sh__entry": {
+  "label": "daily-update.sh script",
+  "norm_label": "daily-update.sh script",
+  "source_file": "scripts/daily-update.sh"
+ },
+ "scripts_daily_update_find_config": {
+  "label": "_find_config()",
+  "norm_label": "_find_config()",
+  "source_file": "scripts/daily-update.sh"
+ },
+ "scripts_extract_jsonl": {
+  "label": "extract-jsonl.py",
+  "norm_label": "extract-jsonl.py",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_canonical": {
+  "label": "canonical()",
+  "norm_label": "canonical()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_default_history_path": {
+  "label": "default_history_path()",
+  "norm_label": "default_history_path()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_default_output_dir": {
+  "label": "default_output_dir()",
+  "norm_label": "default_output_dir()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_skip_patterns": {
+  "label": "skip_patterns()",
+  "norm_label": "skip_patterns()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_is_skipped": {
+  "label": "is_skipped()",
+  "norm_label": "is_skipped()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_needs_extraction": {
+  "label": "needs_extraction()",
+  "norm_label": "needs_extraction()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_text_from_content": {
+  "label": "_text_from_content()",
+  "norm_label": "_text_from_content()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_extract_conversation": {
+  "label": "extract_conversation()",
+  "norm_label": "extract_conversation()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_run": {
+  "label": "run()",
+  "norm_label": "run()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_py_namespace": {
+  "label": "Namespace",
+  "norm_label": "namespace",
+  "source_file": ""
+ },
+ "scripts_extract_jsonl_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_rationale_112": {
+  "label": "Return True if the source JSONL should be (re)extracted.      Idempotent stalene",
+  "norm_label": "return true if the source jsonl should be (re)extracted.      idempotent stalene",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_rationale_136": {
+  "label": "Return plain text from a message content field.      content is either a bare st",
+  "norm_label": "return plain text from a message content field.      content is either a bare st",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_extract_jsonl_rationale_158": {
+  "label": "Parse one JSONL conversation file and return the compact representation.      Re",
+  "norm_label": "parse one jsonl conversation file and return the compact representation.      re",
+  "source_file": "scripts/extract-jsonl.py"
+ },
+ "scripts_manifest": {
+  "label": "manifest.py",
+  "norm_label": "manifest.py",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_canonical": {
+  "label": "canonical()",
+  "norm_label": "canonical()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_manifest_path": {
+  "label": "manifest_path()",
+  "norm_label": "manifest_path()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_load_manifest": {
+  "label": "load_manifest()",
+  "norm_label": "load_manifest()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_newest": {
+  "label": "_newest()",
+  "norm_label": "_newest()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_cmd_normalize": {
+  "label": "cmd_normalize()",
+  "norm_label": "cmd_normalize()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_py_namespace": {
+  "label": "Namespace",
+  "norm_label": "namespace",
+  "source_file": ""
+ },
+ "scripts_manifest_skip_patterns": {
+  "label": "_skip_patterns()",
+  "norm_label": "_skip_patterns()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_relative_key_index": {
+  "label": "_relative_key_index()",
+  "norm_label": "_relative_key_index()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_match_relative": {
+  "label": "_match_relative()",
+  "norm_label": "_match_relative()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_cmd_delta": {
+  "label": "cmd_delta()",
+  "norm_label": "cmd_delta()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_main": {
+  "label": "main()",
+  "norm_label": "main()",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_rationale_31": {
+  "label": "Single canonical key form: expand ~ and env vars, make absolute.",
+  "norm_label": "single canonical key form: expand ~ and env vars, make absolute.",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_rationale_48": {
+  "label": "Merge two entries for the same file, preferring the newer ingested_at and     un",
+  "norm_label": "merge two entries for the same file, preferring the newer ingested_at and     un",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_rationale_116": {
+  "label": "Index relative source keys by basename for suffix matching.      Real vaults sto",
+  "norm_label": "index relative source keys by basename for suffix matching.      real vaults sto",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_manifest_rationale_132": {
+  "label": "Return the manifest entry whose relative key is a suffix of `path`.",
+  "norm_label": "return the manifest entry whose relative key is a suffix of `path`.",
+  "source_file": "scripts/manifest.py"
+ },
+ "scripts_wiki_notify": {
+  "label": "wiki-notify.sh",
+  "norm_label": "wiki-notify.sh",
+  "source_file": "scripts/wiki-notify.sh"
+ },
+ "scripts_wiki_notify_sh__entry": {
+  "label": "wiki-notify.sh script",
+  "norm_label": "wiki-notify.sh script",
+  "source_file": "scripts/wiki-notify.sh"
+ },
+ "scripts_wiki_notify_wiki_notify": {
+  "label": "_wiki_notify()",
+  "norm_label": "_wiki_notify()",
+  "source_file": "scripts/wiki-notify.sh"
+ },
+ "setup": {
+  "label": "setup.sh",
+  "norm_label": "setup.sh",
+  "source_file": "setup.sh"
+ },
+ "setup_sh__entry": {
+  "label": "setup.sh script",
+  "norm_label": "setup.sh script",
+  "source_file": "setup.sh"
+ },
+ "setup_install_skills": {
+  "label": "install_skills()",
+  "norm_label": "install_skills()",
+  "source_file": "setup.sh"
+ },
+ "tests_test_ast_extractor": {
+  "label": "test_ast_extractor.py",
+  "norm_label": "test_ast_extractor.py",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_tmp_py": {
+  "label": "tmp_py()",
+  "norm_label": "tmp_py()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_tmp_js": {
+  "label": "tmp_js()",
+  "norm_label": "tmp_js()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_tmp_dir": {
+  "label": "tmp_dir()",
+  "norm_label": "tmp_dir()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile": {
+  "label": "TestExtractFile",
+  "norm_label": "testextractfile",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_python_classes": {
+  "label": ".test_python_classes()",
+  "norm_label": ".test_python_classes()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_python_functions": {
+  "label": ".test_python_functions()",
+  "norm_label": ".test_python_functions()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_python_imports": {
+  "label": ".test_python_imports()",
+  "norm_label": ".test_python_imports()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_python_inheritance_edge": {
+  "label": ".test_python_inheritance_edge()",
+  "norm_label": ".test_python_inheritance_edge()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_javascript_class_and_function": {
+  "label": ".test_javascript_class_and_function()",
+  "norm_label": ".test_javascript_class_and_function()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_javascript_inheritance": {
+  "label": ".test_javascript_inheritance()",
+  "norm_label": ".test_javascript_inheritance()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_file_node_present": {
+  "label": ".test_file_node_present()",
+  "norm_label": ".test_file_node_present()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractfile_test_unknown_extension_returns_empty": {
+  "label": ".test_unknown_extension_returns_empty()",
+  "norm_label": ".test_unknown_extension_returns_empty()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractdirectory": {
+  "label": "TestExtractDirectory",
+  "norm_label": "testextractdirectory",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractdirectory_test_multi_language": {
+  "label": ".test_multi_language()",
+  "norm_label": ".test_multi_language()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractdirectory_test_files_processed_count": {
+  "label": ".test_files_processed_count()",
+  "norm_label": ".test_files_processed_count()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractdirectory_test_nodes_merged": {
+  "label": ".test_nodes_merged()",
+  "norm_label": ".test_nodes_merged()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractentry": {
+  "label": "TestExtractEntry",
+  "norm_label": "testextractentry",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractentry_test_file_path": {
+  "label": ".test_file_path()",
+  "norm_label": ".test_file_path()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractentry_test_dir_path": {
+  "label": ".test_dir_path()",
+  "norm_label": ".test_dir_path()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractentry_test_missing_path_raises": {
+  "label": ".test_missing_path_raises()",
+  "norm_label": ".test_missing_path_raises()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractentry_test_god_nodes_is_list": {
+  "label": ".test_god_nodes_is_list()",
+  "norm_label": ".test_god_nodes_is_list()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testextractentry_test_output_is_json_serialisable": {
+  "label": ".test_output_is_json_serialisable()",
+  "norm_label": ".test_output_is_json_serialisable()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testcli": {
+  "label": "TestCLI",
+  "norm_label": "testcli",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testcli_test_cli_ast_extract_file": {
+  "label": ".test_cli_ast_extract_file()",
+  "norm_label": ".test_cli_ast_extract_file()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testcli_test_cli_ast_extract_pretty": {
+  "label": ".test_cli_ast_extract_pretty()",
+  "norm_label": ".test_cli_ast_extract_pretty()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_testcli_test_cli_missing_path_exits_nonzero": {
+  "label": ".test_cli_missing_path_exits_nonzero()",
+  "norm_label": ".test_cli_missing_path_exits_nonzero()",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_ast_extractor_rationale_1": {
+  "label": "Tests for the local AST code extractor.",
+  "norm_label": "tests for the local ast code extractor.",
+  "source_file": "tests/test_ast_extractor.py"
+ },
+ "tests_test_batch": {
+  "label": "test_batch.py",
+  "norm_label": "test_batch.py",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_vault": {
+  "label": "vault()",
+  "norm_label": "vault()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_source_dir": {
+  "label": "source_dir()",
+  "norm_label": "source_dir()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_write": {
+  "label": "_write()",
+  "norm_label": "_write()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "tests_test_batch_testclassify": {
+  "label": "TestClassify",
+  "norm_label": "testclassify",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testclassify_test_markdown": {
+  "label": ".test_markdown()",
+  "norm_label": ".test_markdown()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testclassify_test_pdf": {
+  "label": ".test_pdf()",
+  "norm_label": ".test_pdf()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testclassify_test_image": {
+  "label": ".test_image()",
+  "norm_label": ".test_image()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testclassify_test_python_code": {
+  "label": ".test_python_code()",
+  "norm_label": ".test_python_code()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testclassify_test_skip_binary": {
+  "label": ".test_skip_binary()",
+  "norm_label": ".test_skip_binary()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testclassify_test_skip_lockfile": {
+  "label": ".test_skip_lockfile()",
+  "norm_label": ".test_skip_lockfile()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources": {
+  "label": "TestDiscoverSources",
+  "norm_label": "testdiscoversources",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources_test_finds_markdown": {
+  "label": ".test_finds_markdown()",
+  "norm_label": ".test_finds_markdown()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources_test_excludes_code_by_default": {
+  "label": ".test_excludes_code_by_default()",
+  "norm_label": ".test_excludes_code_by_default()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources_test_includes_code_when_flag_set": {
+  "label": ".test_includes_code_when_flag_set()",
+  "norm_label": ".test_includes_code_when_flag_set()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources_test_skips_binary": {
+  "label": ".test_skips_binary()",
+  "norm_label": ".test_skips_binary()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources_test_skips_hidden_dirs": {
+  "label": ".test_skips_hidden_dirs()",
+  "norm_label": ".test_skips_hidden_dirs()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources_test_skips_node_modules": {
+  "label": ".test_skips_node_modules()",
+  "norm_label": ".test_skips_node_modules()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testdiscoversources_test_returns_size": {
+  "label": ".test_returns_size()",
+  "norm_label": ".test_returns_size()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testmakebatches": {
+  "label": "TestMakeBatches",
+  "norm_label": "testmakebatches",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testmakebatches_files": {
+  "label": "._files()",
+  "norm_label": "._files()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testmakebatches_test_single_batch_small": {
+  "label": ".test_single_batch_small()",
+  "norm_label": ".test_single_batch_small()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testmakebatches_test_splits_on_byte_limit": {
+  "label": ".test_splits_on_byte_limit()",
+  "norm_label": ".test_splits_on_byte_limit()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testmakebatches_test_splits_on_file_count": {
+  "label": ".test_splits_on_file_count()",
+  "norm_label": ".test_splits_on_file_count()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testmakebatches_test_empty_input": {
+  "label": ".test_empty_input()",
+  "norm_label": ".test_empty_input()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testmakebatches_test_all_files_present_in_batches": {
+  "label": ".test_all_files_present_in_batches()",
+  "norm_label": ".test_all_files_present_in_batches()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches": {
+  "label": "TestPlanBatches",
+  "norm_label": "testplanbatches",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_returns_required_keys": {
+  "label": ".test_returns_required_keys()",
+  "norm_label": ".test_returns_required_keys()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_empty_dir_gives_zero_batches": {
+  "label": ".test_empty_dir_gives_zero_batches()",
+  "norm_label": ".test_empty_dir_gives_zero_batches()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_single_file_single_batch": {
+  "label": ".test_single_file_single_batch()",
+  "norm_label": ".test_single_file_single_batch()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_batch_kinds_tallied": {
+  "label": ".test_batch_kinds_tallied()",
+  "norm_label": ".test_batch_kinds_tallied()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_skips_unchanged_after_cache_update": {
+  "label": ".test_skips_unchanged_after_cache_update()",
+  "norm_label": ".test_skips_unchanged_after_cache_update()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_no_cache_flag_includes_unchanged": {
+  "label": ".test_no_cache_flag_includes_unchanged()",
+  "norm_label": ".test_no_cache_flag_includes_unchanged()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_batch_total_bytes_correct": {
+  "label": ".test_batch_total_bytes_correct()",
+  "norm_label": ".test_batch_total_bytes_correct()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testplanbatches_test_json_serialisable": {
+  "label": ".test_json_serialisable()",
+  "norm_label": ".test_json_serialisable()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testbatchplancli": {
+  "label": "TestBatchPlanCLI",
+  "norm_label": "testbatchplancli",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testbatchplancli_run": {
+  "label": "._run()",
+  "norm_label": "._run()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testbatchplancli_test_outputs_json": {
+  "label": ".test_outputs_json()",
+  "norm_label": ".test_outputs_json()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testbatchplancli_test_pretty_flag": {
+  "label": ".test_pretty_flag()",
+  "norm_label": ".test_pretty_flag()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testbatchplancli_test_missing_source_dir_exits_nonzero": {
+  "label": ".test_missing_source_dir_exits_nonzero()",
+  "norm_label": ".test_missing_source_dir_exits_nonzero()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_testbatchplancli_test_max_files_respected": {
+  "label": ".test_max_files_respected()",
+  "norm_label": ".test_max_files_respected()",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_batch_rationale_1": {
+  "label": "Tests for the batch planning module.",
+  "norm_label": "tests for the batch planning module.",
+  "source_file": "tests/test_batch.py"
+ },
+ "tests_test_cache": {
+  "label": "test_cache.py",
+  "norm_label": "test_cache.py",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_vault": {
+  "label": "vault()",
+  "norm_label": "vault()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_src_file": {
+  "label": "src_file()",
+  "norm_label": "src_file()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_src_dir": {
+  "label": "src_dir()",
+  "norm_label": "src_dir()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testhashing": {
+  "label": "TestHashing",
+  "norm_label": "testhashing",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testhashing_test_sha256_file_deterministic": {
+  "label": ".test_sha256_file_deterministic()",
+  "norm_label": ".test_sha256_file_deterministic()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testhashing_test_sha256_file_changes_on_edit": {
+  "label": ".test_sha256_file_changes_on_edit()",
+  "norm_label": ".test_sha256_file_changes_on_edit()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testhashing_test_sha256_dir_deterministic": {
+  "label": ".test_sha256_dir_deterministic()",
+  "norm_label": ".test_sha256_dir_deterministic()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testhashing_test_sha256_dir_changes_on_edit": {
+  "label": ".test_sha256_dir_changes_on_edit()",
+  "norm_label": ".test_sha256_dir_changes_on_edit()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testhashing_test_compute_hash_dispatches": {
+  "label": ".test_compute_hash_dispatches()",
+  "norm_label": ".test_compute_hash_dispatches()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testhashing_test_hash_file_alias": {
+  "label": ".test_hash_file_alias()",
+  "norm_label": ".test_hash_file_alias()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources": {
+  "label": "TestCheckSources",
+  "norm_label": "testchecksources",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources_test_new_source": {
+  "label": ".test_new_source()",
+  "norm_label": ".test_new_source()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources_test_unchanged_after_update": {
+  "label": ".test_unchanged_after_update()",
+  "norm_label": ".test_unchanged_after_update()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources_test_modified_after_content_change": {
+  "label": ".test_modified_after_content_change()",
+  "norm_label": ".test_modified_after_content_change()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources_test_missing_path": {
+  "label": ".test_missing_path()",
+  "norm_label": ".test_missing_path()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources_test_empty_source_list": {
+  "label": ".test_empty_source_list()",
+  "norm_label": ".test_empty_source_list()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources_test_multiple_sources": {
+  "label": ".test_multiple_sources()",
+  "norm_label": ".test_multiple_sources()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testchecksources_test_timestamp_irrelevant": {
+  "label": ".test_timestamp_irrelevant()",
+  "norm_label": ".test_timestamp_irrelevant()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testupdatesource": {
+  "label": "TestUpdateSource",
+  "norm_label": "testupdatesource",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testupdatesource_test_writes_manifest": {
+  "label": ".test_writes_manifest()",
+  "norm_label": ".test_writes_manifest()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testupdatesource_test_records_correct_hash": {
+  "label": ".test_records_correct_hash()",
+  "norm_label": ".test_records_correct_hash()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testupdatesource_test_records_pages_produced": {
+  "label": ".test_records_pages_produced()",
+  "norm_label": ".test_records_pages_produced()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testupdatesource_test_records_last_ingested_timestamp": {
+  "label": ".test_records_last_ingested_timestamp()",
+  "norm_label": ".test_records_last_ingested_timestamp()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testupdatesource_test_update_overwrites_old_hash": {
+  "label": ".test_update_overwrites_old_hash()",
+  "norm_label": ".test_update_overwrites_old_hash()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testupdatesource_test_preserves_other_manifest_entries": {
+  "label": ".test_preserves_other_manifest_entries()",
+  "norm_label": ".test_preserves_other_manifest_entries()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli": {
+  "label": "TestCacheCLI",
+  "norm_label": "testcachecli",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli_run": {
+  "label": "._run()",
+  "norm_label": "._run()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli_test_cache_hash_file": {
+  "label": ".test_cache_hash_file()",
+  "norm_label": ".test_cache_hash_file()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli_test_cache_hash_missing_exits_nonzero": {
+  "label": ".test_cache_hash_missing_exits_nonzero()",
+  "norm_label": ".test_cache_hash_missing_exits_nonzero()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli_test_cache_check_new": {
+  "label": ".test_cache_check_new()",
+  "norm_label": ".test_cache_check_new()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli_test_cache_check_pretty": {
+  "label": ".test_cache_check_pretty()",
+  "norm_label": ".test_cache_check_pretty()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli_test_cache_update_then_check_unchanged": {
+  "label": ".test_cache_update_then_check_unchanged()",
+  "norm_label": ".test_cache_update_then_check_unchanged()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_testcachecli_test_cache_update_with_pages": {
+  "label": ".test_cache_update_with_pages()",
+  "norm_label": ".test_cache_update_with_pages()",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_cache_rationale_1": {
+  "label": "Tests for the content-hash cache module.",
+  "norm_label": "tests for the content-hash cache module.",
+  "source_file": "tests/test_cache.py"
+ },
+ "tests_test_doctor": {
+  "label": "test_doctor.py",
+  "norm_label": "test_doctor.py",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_run": {
+  "label": "_run()",
+  "norm_label": "_run()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "tests_test_doctor_py_completedprocess": {
+  "label": "CompletedProcess",
+  "norm_label": "completedprocess",
+  "source_file": ""
+ },
+ "tests_test_doctor_write_config": {
+  "label": "_write_config()",
+  "norm_label": "_write_config()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_make_vault": {
+  "label": "_make_vault()",
+  "norm_label": "_make_vault()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_install_all_skills": {
+  "label": "_install_all_skills()",
+  "norm_label": "_install_all_skills()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_test_doctor_json_clean_install": {
+  "label": "test_doctor_json_clean_install()",
+  "norm_label": "test_doctor_json_clean_install()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_test_doctor_warns_without_agent_installs_but_exits_zero": {
+  "label": "test_doctor_warns_without_agent_installs_but_exits_zero()",
+  "norm_label": "test_doctor_warns_without_agent_installs_but_exits_zero()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_test_doctor_fails_on_invalid_manifest": {
+  "label": "test_doctor_fails_on_invalid_manifest()",
+  "norm_label": "test_doctor_fails_on_invalid_manifest()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_test_doctor_strict_turns_warnings_into_nonzero_exit": {
+  "label": "test_doctor_strict_turns_warnings_into_nonzero_exit()",
+  "norm_label": "test_doctor_strict_turns_warnings_into_nonzero_exit()",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_doctor_rationale_1": {
+  "label": "Tests for the doctor CLI command.",
+  "norm_label": "tests for the doctor cli command.",
+  "source_file": "tests/test_doctor.py"
+ },
+ "tests_test_extract_staleness": {
+  "label": "test_extract_staleness.py",
+  "norm_label": "test_extract_staleness.py",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest": {
+  "label": "ExtractStalenessTest",
+  "norm_label": "extractstalenesstest",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_setup": {
+  "label": ".setUp()",
+  "norm_label": ".setup()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_teardown": {
+  "label": ".tearDown()",
+  "norm_label": ".teardown()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_run": {
+  "label": "._run()",
+  "norm_label": "._run()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_set_mtimes": {
+  "label": "._set_mtimes()",
+  "norm_label": "._set_mtimes()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_test_first_run_extracts": {
+  "label": ".test_first_run_extracts()",
+  "norm_label": ".test_first_run_extracts()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_test_missing_output_is_reextracted": {
+  "label": ".test_missing_output_is_reextracted()",
+  "norm_label": ".test_missing_output_is_reextracted()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_test_source_newer_is_reextracted": {
+  "label": ".test_source_newer_is_reextracted()",
+  "norm_label": ".test_source_newer_is_reextracted()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_test_missing_output_reextracted_despite_since_gate": {
+  "label": ".test_missing_output_reextracted_despite_since_gate()",
+  "norm_label": ".test_missing_output_reextracted_despite_since_gate()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_extractstalenesstest_test_output_newer_is_skipped": {
+  "label": ".test_output_newer_is_skipped()",
+  "norm_label": ".test_output_newer_is_skipped()",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_extract_staleness_rationale_23": {
+  "label": "The extractor must be idempotent based on output-file staleness.      Regression",
+  "norm_label": "the extractor must be idempotent based on output-file staleness.      regression",
+  "source_file": "tests/test_extract_staleness.py"
+ },
+ "tests_test_graph_analysis": {
+  "label": "test_graph_analysis.py",
+  "norm_label": "test_graph_analysis.py",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_vault": {
+  "label": "vault()",
+  "norm_label": "vault()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_page": {
+  "label": "_page()",
+  "norm_label": "_page()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "tests_test_graph_analysis_simple_vault": {
+  "label": "simple_vault()",
+  "norm_label": "simple_vault()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testparsevaultgraph": {
+  "label": "TestParseVaultGraph",
+  "norm_label": "testparsevaultgraph",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testparsevaultgraph_test_reads_wikilinks": {
+  "label": ".test_reads_wikilinks()",
+  "norm_label": ".test_reads_wikilinks()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testparsevaultgraph_test_all_pages_present_as_keys": {
+  "label": ".test_all_pages_present_as_keys()",
+  "norm_label": ".test_all_pages_present_as_keys()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testparsevaultgraph_test_reads_tags": {
+  "label": ".test_reads_tags()",
+  "norm_label": ".test_reads_tags()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testparsevaultgraph_test_empty_vault": {
+  "label": ".test_empty_vault()",
+  "norm_label": ".test_empty_vault()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testparsevaultgraph_test_self_links_ignored": {
+  "label": ".test_self_links_ignored()",
+  "norm_label": ".test_self_links_ignored()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testparsevaultgraph_test_links_to_nonexistent_pages_excluded": {
+  "label": ".test_links_to_nonexistent_pages_excluded()",
+  "norm_label": ".test_links_to_nonexistent_pages_excluded()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgodnodes": {
+  "label": "TestGodNodes",
+  "norm_label": "testgodnodes",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgodnodes_test_c_is_top_hub": {
+  "label": ".test_c_is_top_hub()",
+  "norm_label": ".test_c_is_top_hub()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgodnodes_test_degree_sum": {
+  "label": ".test_degree_sum()",
+  "norm_label": ".test_degree_sum()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgodnodes_test_respects_top_n": {
+  "label": ".test_respects_top_n()",
+  "norm_label": ".test_respects_top_n()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testdeadendsisolated": {
+  "label": "TestDeadEndsIsolated",
+  "norm_label": "testdeadendsisolated",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testdeadendsisolated_test_dead_ends": {
+  "label": ".test_dead_ends()",
+  "norm_label": ".test_dead_ends()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testdeadendsisolated_test_isolated": {
+  "label": ".test_isolated()",
+  "norm_label": ".test_isolated()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testcommunitydetection": {
+  "label": "TestCommunityDetection",
+  "norm_label": "testcommunitydetection",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testcommunitydetection_test_returns_list_of_sets": {
+  "label": ".test_returns_list_of_sets()",
+  "norm_label": ".test_returns_list_of_sets()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testcommunitydetection_test_all_nodes_assigned": {
+  "label": ".test_all_nodes_assigned()",
+  "norm_label": ".test_all_nodes_assigned()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testcommunitydetection_test_no_overlap": {
+  "label": ".test_no_overlap()",
+  "norm_label": ".test_no_overlap()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testcommunitydetection_test_connected_cluster_grouped": {
+  "label": ".test_connected_cluster_grouped()",
+  "norm_label": ".test_connected_cluster_grouped()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testcommunitydetection_test_empty_graph": {
+  "label": ".test_empty_graph()",
+  "norm_label": ".test_empty_graph()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testsurprisingconnections": {
+  "label": "TestSurprisingConnections",
+  "norm_label": "testsurprisingconnections",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testsurprisingconnections_test_cross_community_edge_found": {
+  "label": ".test_cross_community_edge_found()",
+  "norm_label": ".test_cross_community_edge_found()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testsurprisingconnections_test_no_intra_community_edges": {
+  "label": ".test_no_intra_community_edges()",
+  "norm_label": ".test_no_intra_community_edges()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testsurprisingconnections_test_scores_positive": {
+  "label": ".test_scores_positive()",
+  "norm_label": ".test_scores_positive()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testanalysevault": {
+  "label": "TestAnalyseVault",
+  "norm_label": "testanalysevault",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testanalysevault_test_returns_all_keys": {
+  "label": ".test_returns_all_keys()",
+  "norm_label": ".test_returns_all_keys()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testanalysevault_test_stats_correct": {
+  "label": ".test_stats_correct()",
+  "norm_label": ".test_stats_correct()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testanalysevault_test_empty_vault": {
+  "label": ".test_empty_vault()",
+  "norm_label": ".test_empty_vault()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testanalysevault_test_json_serialisable": {
+  "label": ".test_json_serialisable()",
+  "norm_label": ".test_json_serialisable()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgraphanalysecli": {
+  "label": "TestGraphAnalyseCLI",
+  "norm_label": "testgraphanalysecli",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgraphanalysecli_test_outputs_json": {
+  "label": ".test_outputs_json()",
+  "norm_label": ".test_outputs_json()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgraphanalysecli_test_pretty_flag": {
+  "label": ".test_pretty_flag()",
+  "norm_label": ".test_pretty_flag()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgraphanalysecli_test_top_flag": {
+  "label": ".test_top_flag()",
+  "norm_label": ".test_top_flag()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_testgraphanalysecli_test_missing_vault_exits_nonzero": {
+  "label": ".test_missing_vault_exits_nonzero()",
+  "norm_label": ".test_missing_vault_exits_nonzero()",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_rationale_1": {
+  "label": "Tests for vault graph analysis: community detection, god nodes, surprising conne",
+  "norm_label": "tests for vault graph analysis: community detection, god nodes, surprising conne",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_rationale_33": {
+  "label": "Write a minimal wiki page with wikilinks.",
+  "norm_label": "write a minimal wiki page with wikilinks.",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graph_analysis_rationale_46": {
+  "label": "A \u2192 B \u2192 C     A \u2192 C     D (isolated)     E \u2192 F (dead-end cluster)",
+  "norm_label": "a \u2192 b \u2192 c     a \u2192 c     d (isolated)     e \u2192 f (dead-end cluster)",
+  "source_file": "tests/test_graph_analysis.py"
+ },
+ "tests_test_graphrag": {
+  "label": "test_graphrag.py",
+  "norm_label": "test_graphrag.py",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_vault": {
+  "label": "vault()",
+  "norm_label": "vault()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_page": {
+  "label": "_page()",
+  "norm_label": "_page()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "tests_test_graphrag_simple_vault": {
+  "label": "simple_vault()",
+  "norm_label": "simple_vault()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex": {
+  "label": "TestBuildIndex",
+  "norm_label": "testbuildindex",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_returns_slugs": {
+  "label": ".test_returns_slugs()",
+  "norm_label": ".test_returns_slugs()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_reads_title": {
+  "label": ".test_reads_title()",
+  "norm_label": ".test_reads_title()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_reads_summary": {
+  "label": ".test_reads_summary()",
+  "norm_label": ".test_reads_summary()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_reads_tags": {
+  "label": ".test_reads_tags()",
+  "norm_label": ".test_reads_tags()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_reads_tier": {
+  "label": ".test_reads_tier()",
+  "norm_label": ".test_reads_tier()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_out_links": {
+  "label": ".test_out_links()",
+  "norm_label": ".test_out_links()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_in_links_reverse": {
+  "label": ".test_in_links_reverse()",
+  "norm_label": ".test_in_links_reverse()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_empty_vault": {
+  "label": ".test_empty_vault()",
+  "norm_label": ".test_empty_vault()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testbuildindex_test_skips_raw_dir": {
+  "label": ".test_skips_raw_dir()",
+  "norm_label": ".test_skips_raw_dir()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testrankcandidates": {
+  "label": "TestRankCandidates",
+  "norm_label": "testrankcandidates",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testrankcandidates_test_exact_title_match_scores_highest": {
+  "label": ".test_exact_title_match_scores_highest()",
+  "norm_label": ".test_exact_title_match_scores_highest()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testrankcandidates_test_tag_match_included": {
+  "label": ".test_tag_match_included()",
+  "norm_label": ".test_tag_match_included()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testrankcandidates_test_no_match_returns_empty": {
+  "label": ".test_no_match_returns_empty()",
+  "norm_label": ".test_no_match_returns_empty()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testrankcandidates_test_core_tier_boosted": {
+  "label": ".test_core_tier_boosted()",
+  "norm_label": ".test_core_tier_boosted()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testrankcandidates_test_respects_top_n": {
+  "label": ".test_respects_top_n()",
+  "norm_label": ".test_respects_top_n()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testfindpath": {
+  "label": "TestFindPath",
+  "norm_label": "testfindpath",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testfindpath_test_direct_link": {
+  "label": ".test_direct_link()",
+  "norm_label": ".test_direct_link()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testfindpath_test_same_node": {
+  "label": ".test_same_node()",
+  "norm_label": ".test_same_node()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testfindpath_test_unknown_node_returns_none": {
+  "label": ".test_unknown_node_returns_none()",
+  "norm_label": ".test_unknown_node_returns_none()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testfindpath_test_multi_hop": {
+  "label": ".test_multi_hop()",
+  "norm_label": ".test_multi_hop()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testfindpath_test_no_path_returns_none": {
+  "label": ".test_no_path_returns_none()",
+  "norm_label": ".test_no_path_returns_none()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testclassifyquery": {
+  "label": "TestClassifyQuery",
+  "norm_label": "testclassifyquery",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testclassifyquery_test_direct_query": {
+  "label": ".test_direct_query()",
+  "norm_label": ".test_direct_query()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testclassifyquery_test_path_query": {
+  "label": ".test_path_query()",
+  "norm_label": ".test_path_query()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testclassifyquery_test_gap_query": {
+  "label": ".test_gap_query()",
+  "norm_label": ".test_gap_query()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testclassifyquery_test_list_query": {
+  "label": ".test_list_query()",
+  "norm_label": ".test_list_query()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testclassifyquery_test_stop_words_filtered": {
+  "label": ".test_stop_words_filtered()",
+  "norm_label": ".test_stop_words_filtered()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery": {
+  "label": "TestQuery",
+  "norm_label": "testquery",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery_test_returns_required_keys": {
+  "label": ".test_returns_required_keys()",
+  "norm_label": ".test_returns_required_keys()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery_test_finds_exact_match": {
+  "label": ".test_finds_exact_match()",
+  "norm_label": ".test_finds_exact_match()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery_test_path_query_populated": {
+  "label": ".test_path_query_populated()",
+  "norm_label": ".test_path_query_populated()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery_test_index_only_on_exact_with_summary": {
+  "label": ".test_index_only_on_exact_with_summary()",
+  "norm_label": ".test_index_only_on_exact_with_summary()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery_test_should_read_empty_when_index_only": {
+  "label": ".test_should_read_empty_when_index_only()",
+  "norm_label": ".test_should_read_empty_when_index_only()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery_test_empty_vault": {
+  "label": ".test_empty_vault()",
+  "norm_label": ".test_empty_vault()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testquery_test_json_serialisable": {
+  "label": ".test_json_serialisable()",
+  "norm_label": ".test_json_serialisable()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testgraphquerycli": {
+  "label": "TestGraphQueryCLI",
+  "norm_label": "testgraphquerycli",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testgraphquerycli_run": {
+  "label": "._run()",
+  "norm_label": "._run()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testgraphquerycli_test_outputs_json": {
+  "label": ".test_outputs_json()",
+  "norm_label": ".test_outputs_json()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testgraphquerycli_test_pretty_flag": {
+  "label": ".test_pretty_flag()",
+  "norm_label": ".test_pretty_flag()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_testgraphquerycli_test_missing_vault_exits_nonzero": {
+  "label": ".test_missing_vault_exits_nonzero()",
+  "norm_label": ".test_missing_vault_exits_nonzero()",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_graphrag_rationale_1": {
+  "label": "Tests for the GraphRAG query index module.",
+  "norm_label": "tests for the graphrag query index module.",
+  "source_file": "tests/test_graphrag.py"
+ },
+ "tests_test_inline_vault_targeting_docs": {
+  "label": "test_inline_vault_targeting_docs.py",
+  "norm_label": "test_inline_vault_targeting_docs.py",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest": {
+  "label": "InlineVaultTargetingDocsTest",
+  "norm_label": "inlinevaulttargetingdocstest",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest_read": {
+  "label": ".read()",
+  "norm_label": ".read()",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest_test_central_protocol_documents_inline_override_before_fallbacks": {
+  "label": ".test_central_protocol_documents_inline_override_before_fallbacks()",
+  "norm_label": ".test_central_protocol_documents_inline_override_before_fallbacks()",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest_test_skill_resolution_summaries_include_inline_override": {
+  "label": ".test_skill_resolution_summaries_include_inline_override()",
+  "norm_label": ".test_skill_resolution_summaries_include_inline_override()",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest_test_agent_bootstrap_files_mention_named_vault_routing": {
+  "label": ".test_agent_bootstrap_files_mention_named_vault_routing()",
+  "norm_label": ".test_agent_bootstrap_files_mention_named_vault_routing()",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest_test_readme_says_all_supported_agents_inherit_named_vault_routing": {
+  "label": ".test_readme_says_all_supported_agents_inherit_named_vault_routing()",
+  "norm_label": ".test_readme_says_all_supported_agents_inherit_named_vault_routing()",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest_test_core_skill_descriptions_include_named_vault_examples": {
+  "label": ".test_core_skill_descriptions_include_named_vault_examples()",
+  "norm_label": ".test_core_skill_descriptions_include_named_vault_examples()",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_inline_vault_targeting_docs_inlinevaulttargetingdocstest_test_wiki_query_does_not_prefer_default_over_inline_override": {
+  "label": ".test_wiki_query_does_not_prefer_default_over_inline_override()",
+  "norm_label": ".test_wiki_query_does_not_prefer_default_over_inline_override()",
+  "source_file": "tests/test_inline_vault_targeting_docs.py"
+ },
+ "tests_test_lint": {
+  "label": "test_lint.py",
+  "norm_label": "test_lint.py",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_lint_page": {
+  "label": "_page()",
+  "norm_label": "_page()",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_lint_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "tests_test_lint_run": {
+  "label": "_run()",
+  "norm_label": "_run()",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_lint_py_completedprocess": {
+  "label": "CompletedProcess",
+  "norm_label": "completedprocess",
+  "source_file": ""
+ },
+ "tests_test_lint_test_lint_vault_passes_clean_graph": {
+  "label": "test_lint_vault_passes_clean_graph()",
+  "norm_label": "test_lint_vault_passes_clean_graph()",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_lint_test_lint_vault_fails_on_broken_links_and_missing_frontmatter": {
+  "label": "test_lint_vault_fails_on_broken_links_and_missing_frontmatter()",
+  "norm_label": "test_lint_vault_fails_on_broken_links_and_missing_frontmatter()",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_lint_test_lint_vault_warns_on_duplicates_missing_summaries_and_orphans": {
+  "label": "test_lint_vault_warns_on_duplicates_missing_summaries_and_orphans()",
+  "norm_label": "test_lint_vault_warns_on_duplicates_missing_summaries_and_orphans()",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_lint_test_lint_cli_uses_configured_vault_and_strict_mode": {
+  "label": "test_lint_cli_uses_configured_vault_and_strict_mode()",
+  "norm_label": "test_lint_cli_uses_configured_vault_and_strict_mode()",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_lint_rationale_1": {
+  "label": "Tests for vault linting.",
+  "norm_label": "tests for vault linting.",
+  "source_file": "tests/test_lint.py"
+ },
+ "tests_test_manifest_delta": {
+  "label": "test_manifest_delta.py",
+  "norm_label": "test_manifest_delta.py",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest": {
+  "label": "ManifestDeltaRelativeKeyTest",
+  "norm_label": "manifestdeltarelativekeytest",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_setup": {
+  "label": ".setUp()",
+  "norm_label": ".setup()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_teardown": {
+  "label": ".tearDown()",
+  "norm_label": ".teardown()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_write_manifest": {
+  "label": "._write_manifest()",
+  "norm_label": "._write_manifest()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_delta": {
+  "label": "._delta()",
+  "norm_label": "._delta()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_test_relative_key_older_ingest_is_modified_not_new": {
+  "label": ".test_relative_key_older_ingest_is_modified_not_new()",
+  "norm_label": ".test_relative_key_older_ingest_is_modified_not_new()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_test_relative_key_recent_ingest_is_unchanged": {
+  "label": ".test_relative_key_recent_ingest_is_unchanged()",
+  "norm_label": ".test_relative_key_recent_ingest_is_unchanged()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_test_absolute_key_still_matches": {
+  "label": ".test_absolute_key_still_matches()",
+  "norm_label": ".test_absolute_key_still_matches()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestdeltarelativekeytest_test_unknown_file_is_new": {
+  "label": ".test_unknown_file_is_new()",
+  "norm_label": ".test_unknown_file_is_new()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestnormalizerelativekeytest": {
+  "label": "ManifestNormalizeRelativeKeyTest",
+  "norm_label": "manifestnormalizerelativekeytest",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestnormalizerelativekeytest_setup": {
+  "label": ".setUp()",
+  "norm_label": ".setup()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestnormalizerelativekeytest_teardown": {
+  "label": ".tearDown()",
+  "norm_label": ".teardown()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestnormalizerelativekeytest_write_manifest": {
+  "label": "._write_manifest()",
+  "norm_label": "._write_manifest()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestnormalizerelativekeytest_keys_after_normalize": {
+  "label": "._keys_after_normalize()",
+  "norm_label": "._keys_after_normalize()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestnormalizerelativekeytest_test_relative_key_preserved_regardless_of_cwd": {
+  "label": ".test_relative_key_preserved_regardless_of_cwd()",
+  "norm_label": ".test_relative_key_preserved_regardless_of_cwd()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_manifestnormalizerelativekeytest_test_absolute_keys_still_dedup_and_canonicalize": {
+  "label": ".test_absolute_keys_still_dedup_and_canonicalize()",
+  "norm_label": ".test_absolute_keys_still_dedup_and_canonicalize()",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_rationale_18": {
+  "label": "cmd_delta must recognize sources stored under relative keys.      Real vaults ke",
+  "norm_label": "cmd_delta must recognize sources stored under relative keys.      real vaults ke",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_manifest_delta_rationale_96": {
+  "label": "cmd_normalize must not corrupt relative source keys.      canonical() resolves a",
+  "norm_label": "cmd_normalize must not corrupt relative source keys.      canonical() resolves a",
+  "source_file": "tests/test_manifest_delta.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip": {
+  "label": "test_okf_same_name_link_roundtrip.py",
+  "norm_label": "test_okf_same_name_link_roundtrip.py",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_export_okf_link_path": {
+  "label": "export_okf_link_path()",
+  "norm_label": "export_okf_link_path()",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_import_okf_link_target": {
+  "label": "import_okf_link_target()",
+  "norm_label": "import_okf_link_target()",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_okfsamenamelinkroundtriptest": {
+  "label": "OkfSameNameLinkRoundTripTest",
+  "norm_label": "okfsamenamelinkroundtriptest",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_okfsamenamelinkroundtriptest_test_child_to_parent_uses_target_file_path": {
+  "label": ".test_child_to_parent_uses_target_file_path()",
+  "norm_label": ".test_child_to_parent_uses_target_file_path()",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_okfsamenamelinkroundtriptest_test_child_to_parent_round_trips_back_to_parent_id": {
+  "label": ".test_child_to_parent_round_trips_back_to_parent_id()",
+  "norm_label": ".test_child_to_parent_round_trips_back_to_parent_id()",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_okfsamenamelinkroundtriptest_test_naive_id_relpath_is_the_buggy_case": {
+  "label": ".test_naive_id_relpath_is_the_buggy_case()",
+  "norm_label": ".test_naive_id_relpath_is_the_buggy_case()",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_rationale_8": {
+  "label": "Model wiki-export Step 3.5's required target-file relpath behavior.",
+  "norm_label": "model wiki-export step 3.5's required target-file relpath behavior.",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_okf_same_name_link_roundtrip_rationale_15": {
+  "label": "Model wiki-import Step 4-OKF's .md path -> page id reversal.",
+  "norm_label": "model wiki-import step 4-okf's .md path -> page id reversal.",
+  "source_file": "tests/test_okf_same_name_link_roundtrip.py"
+ },
+ "tests_test_query_cli": {
+  "label": "test_query_cli.py",
+  "norm_label": "test_query_cli.py",
+  "source_file": "tests/test_query_cli.py"
+ },
+ "tests_test_query_cli_page": {
+  "label": "_page()",
+  "norm_label": "_page()",
+  "source_file": "tests/test_query_cli.py"
+ },
+ "tests_test_query_cli_py_path": {
+  "label": "Path",
+  "norm_label": "path",
+  "source_file": ""
+ },
+ "tests_test_query_cli_run": {
+  "label": "_run()",
+  "norm_label": "_run()",
+  "source_file": "tests/test_query_cli.py"
+ },
+ "tests_test_query_cli_py_completedprocess": {
+  "label": "CompletedProcess",
+  "norm_label": "completedprocess",
+  "source_file": ""
+ },
+ "tests_test_query_cli_test_query_cli_uses_configured_vault": {
+  "label": "test_query_cli_uses_configured_vault()",
+  "norm_label": "test_query_cli_uses_configured_vault()",
+  "source_file": "tests/test_query_cli.py"
+ },
+ "tests_test_query_cli_test_query_cli_requires_vault_when_unconfigured": {
+  "label": "test_query_cli_requires_vault_when_unconfigured()",
+  "norm_label": "test_query_cli_requires_vault_when_unconfigured()",
+  "source_file": "tests/test_query_cli.py"
+ },
+ "tests_test_query_cli_rationale_1": {
+  "label": "Tests for the high-level query CLI.",
+  "norm_label": "tests for the high-level query cli.",
+  "source_file": "tests/test_query_cli.py"
+ },
+ "root_hermes": {
+  "label": "Hermes Agent Context",
+  "norm_label": "hermes agent context",
+  "source_file": ".hermes.md"
+ },
+ "root_agents": {
+  "label": "Obsidian Wiki Agent Context",
+  "norm_label": "obsidian wiki agent context",
+  "source_file": "AGENTS.md"
+ },
+ "root_claude": {
+  "label": "Claude Agent Context",
+  "norm_label": "claude agent context",
+  "source_file": "CLAUDE.md"
+ },
+ "root_gemini": {
+  "label": "Gemini Agent Context",
+  "norm_label": "gemini agent context",
+  "source_file": "GEMINI.md"
+ },
+ "root_readme": {
+  "label": "Obsidian Wiki README",
+  "norm_label": "obsidian wiki readme",
+  "source_file": "README.md"
+ },
+ "root_readme_tw": {
+  "label": "Obsidian Wiki README (Traditional Chinese)",
+  "norm_label": "obsidian wiki readme (traditional chinese)",
+  "source_file": "README_TW.md"
+ },
+ "root_setup_doc": {
+  "label": "Setup Guide",
+  "norm_label": "setup guide",
+  "source_file": "SETUP.md"
+ },
+ "agent_rules_obsidian_wiki": {
+  "label": "Antigravity Rules",
+  "norm_label": "antigravity rules",
+  "source_file": ".agent/rules/obsidian-wiki.md"
+ },
+ "agent_workflows_obsidian_wiki": {
+  "label": "Antigravity Workflows",
+  "norm_label": "antigravity workflows",
+  "source_file": ".agent/workflows/obsidian-wiki.md"
+ },
+ "github_copilot_instructions": {
+  "label": "Copilot Instructions",
+  "norm_label": "copilot instructions",
+  "source_file": ".github/copilot-instructions.md"
+ },
+ "kiro_steering_obsidian_wiki": {
+  "label": "Kiro Steering Rules",
+  "norm_label": "kiro steering rules",
+  "source_file": ".kiro/steering/obsidian-wiki.md"
+ },
+ "skills_claude_history_ingest_skill": {
+  "label": "Claude History Ingest Skill",
+  "norm_label": "claude history ingest skill",
+  "source_file": ".skills/claude-history-ingest/SKILL.md"
+ },
+ "skills_codex_history_ingest_skill": {
+  "label": "Codex History Ingest Skill",
+  "norm_label": "codex history ingest skill",
+  "source_file": ".skills/codex-history-ingest/SKILL.md"
+ },
+ "skills_copilot_history_ingest_skill": {
+  "label": "Copilot History Ingest Skill",
+  "norm_label": "copilot history ingest skill",
+  "source_file": ".skills/copilot-history-ingest/SKILL.md"
+ },
+ "skills_cross_linker_skill": {
+  "label": "Cross-Linker Skill",
+  "norm_label": "cross-linker skill",
+  "source_file": ".skills/cross-linker/SKILL.md"
+ },
+ "skills_llm_wiki_skill": {
+  "label": "LLM Wiki Core Pattern",
+  "norm_label": "llm wiki core pattern",
+  "source_file": ".skills/llm-wiki/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_daily_update_skill": {
+  "label": "Daily Update Skill",
+  "norm_label": "daily update skill",
+  "source_file": ".skills/daily-update/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_graph_colorize_skill": {
+  "label": "Graph Colorize Skill",
+  "norm_label": "graph colorize skill",
+  "source_file": ".skills/graph-colorize/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_hermes_history_ingest_skill": {
+  "label": "Hermes History Ingest Skill",
+  "norm_label": "hermes history ingest skill",
+  "source_file": ".skills/hermes-history-ingest/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_hermes_history_ingest_references_hermes_data_format": {
+  "label": "Hermes Data Format Reference",
+  "norm_label": "hermes data format reference",
+  "source_file": ".skills/hermes-history-ingest/references/hermes-data-format.md"
+ },
+ "root_obsidian_wiki_skills_impl_validator_skill": {
+  "label": "Implementation Validator Skill",
+  "norm_label": "implementation validator skill",
+  "source_file": ".skills/impl-validator/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_llm_wiki_skill": {
+  "label": "LLM Wiki Skill",
+  "norm_label": "llm wiki skill",
+  "source_file": ".skills/llm-wiki/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_llm_wiki_references_karpathy_pattern": {
+  "label": "Karpathy's LLM Wiki Pattern",
+  "norm_label": "karpathy's llm wiki pattern",
+  "source_file": ".skills/llm-wiki/references/karpathy-pattern.md"
+ },
+ "root_obsidian_wiki_skills_memory_bridge_skill": {
+  "label": "Memory Bridge Skill",
+  "norm_label": "memory bridge skill",
+  "source_file": ".skills/memory-bridge/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_obsidian_layout_adjustment_skill": {
+  "label": "Obsidian Layout Adjustment Skill",
+  "norm_label": "obsidian layout adjustment skill",
+  "source_file": ".skills/obsidian-layout-adjustment/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_obsidian_layout_adjustment_references_workflow_reference": {
+  "label": "Obsidian Layout Workflow Reference",
+  "norm_label": "obsidian layout workflow reference",
+  "source_file": ".skills/obsidian-layout-adjustment/references/workflow-reference.md"
+ },
+ "root_obsidian_wiki_skills_openclaw_history_ingest_skill": {
+  "label": "OpenClaw History Ingest Skill",
+  "norm_label": "openclaw history ingest skill",
+  "source_file": ".skills/openclaw-history-ingest/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_openclaw_history_ingest_references_openclaw_data_format": {
+  "label": "OpenClaw Data Format Reference",
+  "norm_label": "openclaw data format reference",
+  "source_file": ".skills/openclaw-history-ingest/references/openclaw-data-format.md"
+ },
+ "root_obsidian_wiki_skills_pi_history_ingest_skill": {
+  "label": "Pi History Ingest Skill",
+  "norm_label": "pi history ingest skill",
+  "source_file": ".skills/pi-history-ingest/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_skill_creator_skill": {
+  "label": "Skill Creator Skill",
+  "norm_label": "skill creator skill",
+  "source_file": ".skills/skill-creator/SKILL.md"
+ },
+ "root_obsidian_wiki_skills_tag_taxonomy_skill": {
+  "label": "Tag Taxonomy Skill",
+  "norm_label": "tag taxonomy skill",
+  "source_file": ".skills/tag-taxonomy/SKILL.md"
+ },
+ "skills_vault_skill_factory_skill_factory_skill": {
+  "label": "Vault Skill Factory",
+  "norm_label": "vault skill factory",
+  "source_file": ".skills/vault-skill-factory/SKILL.md"
+ },
+ "skills_wiki_agent_skill": {
+  "label": "Wiki Agent",
+  "norm_label": "wiki agent",
+  "source_file": ".skills/wiki-agent/SKILL.md"
+ },
+ "skills_wiki_capture_skill": {
+  "label": "Wiki Capture",
+  "norm_label": "wiki capture",
+  "source_file": ".skills/wiki-capture/SKILL.md"
+ },
+ "skills_wiki_context_pack_skill": {
+  "label": "Wiki Context Pack",
+  "norm_label": "wiki context pack",
+  "source_file": ".skills/wiki-context-pack/SKILL.md"
+ },
+ "skills_wiki_dashboard_skill": {
+  "label": "Wiki Dashboard",
+  "norm_label": "wiki dashboard",
+  "source_file": ".skills/wiki-dashboard/SKILL.md"
+ },
+ "skills_wiki_dedup_skill": {
+  "label": "Wiki Dedup",
+  "norm_label": "wiki dedup",
+  "source_file": ".skills/wiki-dedup/SKILL.md"
+ },
+ "skills_wiki_digest_skill": {
+  "label": "Wiki Digest",
+  "norm_label": "wiki digest",
+  "source_file": ".skills/wiki-digest/SKILL.md"
+ },
+ "skills_wiki_export_skill": {
+  "label": "Wiki Export",
+  "norm_label": "wiki export",
+  "source_file": ".skills/wiki-export/SKILL.md"
+ },
+ "skills_wiki_history_ingest_skill": {
+  "label": "Wiki History Ingest",
+  "norm_label": "wiki history ingest",
+  "source_file": ".skills/wiki-history-ingest/SKILL.md"
+ },
+ "skills_wiki_import_skill": {
+  "label": "Wiki Import",
+  "norm_label": "wiki import",
+  "source_file": ".skills/wiki-import/SKILL.md"
+ },
+ "skills_wiki_ingest_skill": {
+  "label": "Wiki Ingest",
+  "norm_label": "wiki ingest",
+  "source_file": ".skills/wiki-ingest/SKILL.md"
+ },
+ "skills_wiki_lint_skill": {
+  "label": "Wiki Lint",
+  "norm_label": "wiki lint",
+  "source_file": ".skills/wiki-lint/SKILL.md"
+ },
+ "skills_wiki_query_skill": {
+  "label": "Wiki Query",
+  "norm_label": "wiki query",
+  "source_file": ".skills/wiki-query/SKILL.md"
+ },
+ "skills_wiki_rebuild_skill": {
+  "label": "Wiki Rebuild",
+  "norm_label": "wiki rebuild",
+  "source_file": ".skills/wiki-rebuild/SKILL.md"
+ },
+ "qmd_tool": {
+  "label": "QMD Search Index",
+  "norm_label": "qmd search index",
+  "source_file": null
+ },
+ "obsidian_vault": {
+  "label": "Obsidian Wiki Vault",
+  "norm_label": "obsidian wiki vault",
+  "source_file": null
+ },
+ "skills_wiki_research_skill": {
+  "label": "Wiki Research Skill",
+  "norm_label": "wiki research skill",
+  "source_file": ".skills/wiki-research/SKILL.md"
+ },
+ "skills_wiki_setup_skill": {
+  "label": "Wiki Setup Skill",
+  "norm_label": "wiki setup skill",
+  "source_file": ".skills/wiki-setup/SKILL.md"
+ },
+ "skills_wiki_stage_commit_skill": {
+  "label": "Wiki Stage Commit Skill",
+  "norm_label": "wiki stage commit skill",
+  "source_file": ".skills/wiki-stage-commit/SKILL.md"
+ },
+ "skills_wiki_status_skill": {
+  "label": "Wiki Status Skill",
+  "norm_label": "wiki status skill",
+  "source_file": ".skills/wiki-status/SKILL.md"
+ },
+ "skills_wiki_switch_skill": {
+  "label": "Wiki Switch Skill",
+  "norm_label": "wiki switch skill",
+  "source_file": ".skills/wiki-switch/SKILL.md"
+ },
+ "skills_wiki_synthesize_skill": {
+  "label": "Wiki Synthesize Skill",
+  "norm_label": "wiki synthesize skill",
+  "source_file": ".skills/wiki-synthesize/SKILL.md"
+ },
+ "skills_wiki_update_skill": {
+  "label": "Wiki Update Skill",
+  "norm_label": "wiki update skill",
+  "source_file": ".skills/wiki-update/SKILL.md"
+ },
+ "windsurf_rules_obsidian_wiki": {
+  "label": "Obsidian Wiki Agent Context",
+  "norm_label": "obsidian wiki agent context",
+  "source_file": ".windsurf/rules/obsidian-wiki.md"
+ },
+ "extensions_brain_capture_readme": {
+  "label": "Brain Vault Capture README",
+  "norm_label": "brain vault capture readme",
+  "source_file": "extensions/brain-capture/README.md"
+ },
+ "extensions_brain_capture_popup_html": {
+  "label": "Brain Vault Capture Popup",
+  "norm_label": "brain vault capture popup",
+  "source_file": "extensions/brain-capture/popup.html"
+ },
+ "extensions_brain_capture_assets_icon_128": {
+  "label": "Brain Capture Icon 128",
+  "norm_label": "brain capture icon 128",
+  "source_file": "extensions/brain-capture/assets/icon-128.png"
+ },
+ "extensions_brain_capture_assets_icon_16": {
+  "label": "Brain Capture Icon 16",
+  "norm_label": "brain capture icon 16",
+  "source_file": "extensions/brain-capture/assets/icon-16.png"
+ },
+ "extensions_brain_capture_assets_icon_48": {
+  "label": "Brain Capture Icon 48",
+  "norm_label": "brain capture icon 48",
+  "source_file": "extensions/brain-capture/assets/icon-48.png"
+ },
+ "extensions_brain_capture_assets_obsidian_brain": {
+  "label": "Obsidian Brain Logo",
+  "norm_label": "obsidian brain logo",
+  "source_file": "extensions/brain-capture/assets/obsidian-brain.png"
+ },
+ "concept_config_resolution_protocol": {
+  "label": "Config Resolution Protocol",
+  "norm_label": "config resolution protocol",
+  "source_file": ".windsurf/rules/obsidian-wiki.md"
+ },
+ "concept_staged_writes": {
+  "label": "Staged Writes",
+  "norm_label": "staged writes",
+  "source_file": ".skills/wiki-stage-commit/SKILL.md"
+ },
+ "concept_wiki_insights": {
+  "label": "Wiki Insights",
+  "norm_label": "wiki insights",
+  "source_file": ".skills/wiki-status/SKILL.md"
+ }
+}
